@@ -1,0 +1,29 @@
+    1  172.20.25.9
+    2  wget www.github.com
+    3  ls
+    4  rs
+    5  git clone https://github.com/your-username/cs131.git
+    6  passwd
+    7  wget www.github.com
+    8  cs131
+    9  pwd
+   10  cd/pwd
+   11  cd
+   12  cd /
+   13  pwd
+   14  cd / pwd
+   15  cd
+   16  git clone https://github.com/yourname/cs131.git
+   17  cd
+   18  myproject
+   19  Documents
+   20  Saad A
+   21  cd
+   22  mkdir myproject
+   23  cd
+   24  mkdir myproject
+   25  cd cs131
+   26  ls
+   27  history 5
+   28  man history 
+   29  history > cmds.log
