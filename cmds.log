@@ -1,0 +1,247 @@
+    1  172.20.25.9
+    2  wget www.github.com
+    3  ls
+    4  rs
+    5  git clone https://github.com/your-username/cs131.git
+    6  passwd
+    7  wget www.github.com
+    8  cs131
+    9  pwd
+   10  cd/pwd
+   11  cd
+   12  cd /
+   13  pwd
+   14  cd / pwd
+   15  cd
+   16  git clone https://github.com/yourname/cs131.git
+   17  cd
+   18  myproject
+   19  Documents
+   20  Saad A
+   21  cd
+   22  mkdir myproject
+   23  cd
+   24  mkdir myproject
+   25  mkdir 0828
+   26  cd 0828
+   27  touchaa.txt
+   28  touch aa.txt
+   29  ;s
+   30  ls
+   31  ls *. txt
+   32  touch bb.txt
+   33  ls *.txt
+   34  ls ?.txt
+   35  touch a.txt
+   36  ls ?.txt
+   37  ls ??.txt
+   38  ls-l *.jpeg
+   39  ls -l *.jpeg
+   40  man ls
+   41  ls *.txt
+   42  ls
+   43  clear
+   44  ls
+   45  clear
+   46  ls
+   47  mkdir cs131
+   48  ls
+   49  jistory 5
+   50  history 5
+   51  history > cmds.log
+   52  ls
+   53  head -15 cmds.log
+   54  less cmds.log
+   55  nano cmds.log
+   56  ls
+   57  mkdir cs131
+   58  cd cs131/
+   59  ls
+   60  history 5
+   61  history > cmds.log
+   62  ls
+   63  git init
+   64  git status
+   65  git add cmds.log
+   66  git status
+   67  git commit -m "ws1"
+   68  cd cs131
+   69  ls
+   70  history 5
+   71  man history 
+   72  history > cmds.log
+   73  ls
+   74  git init
+   75  git status
+   76  git add cmds.log
+   77  git status
+   78  git commit -m "ws1"
+   79  git config --global user.email "fnu.saad@sjsu.edu"
+   80  git config --global user.name "Fnu Saad"
+   81  git status
+   82  git commit -m "ws1"
+   83  git status
+   84  git branch -M main
+   85  git remote add origin https://github.com/chsaad98/cs131.git
+   86  git push -u origin main
+   87  ls
+   88  mkdir ws1
+   89  ls
+   90  mv cmds.log ws1/
+   91  ls
+   92  ls ws1
+   93  git status
+   94  git add
+   95  git add .
+   96  git commit -m "fix location of ws1 files"
+   97  git push
+   98  git put origin main
+   99  git push origin main
+  100  vim hellovim.txt
+  101  vim hellovim
+  102  mkdir hellovim.txt
+  103  San jose state university
+  104  vim hellovim.
+  105  vim hellovim.
+  106  vim hellovim
+  107  vim hellovim
+  108  vim hellovim.
+  109  vim sample.txt
+  110  cp /datasets/taxidata.tar.gz .
+  111  tar -xzvf taxidata.tar.gz
+  112  cp /datasets/taxidata.tar.gz .
+  113  tar zxvf tarred_file.tar.gz
+  114  tar tvf tarred_file.tar | grep xxx
+  115  tar -xzvf taxidata.tar.gz
+  116  ls
+  117  taxidat.tar.gz
+  118  cd taxidata.tar.gz
+  119  cp /datasets/taxidata.tar.gz .
+  120  tar -xzf taxidata.tar.gz
+  121  ls
+  122  tar -xzf taxidata.tar.gz
+  123  grep '2019-03-12' filename.csv > results.txt
+  124  tail -n 20 results.txt > results.txt
+  125  ls
+  126  tar -xzf taxidata.tar.gz
+  127  grep '2019-03-12' filename.csv > results.txt
+  128  ls
+  129  grep '2019-03-12' filename.csv > results.txt
+  130  pwd
+  131  cd datasets
+  132  ls
+  133  cp /datasets/taxidata.tar.gz .
+  134  tar zxvf tarred_file.tar.gz
+  135  ls
+  136  tar zxvf tarred_file.tar.gz
+  137  tar zxvf taxidata.tar.gz
+  138  grep '2019-03-12' taxi_data.csv > filtered_data.txt
+  139  grep '2019-03-12' taxi_data > filtered_data.txt
+  140  grep '2019-03-12'taxi_data .csv > filtered_data.txt
+  141  ls
+  142  rm 0828
+  143  del 0828
+  144  clear
+  145  ls
+  146  cp /datasets/taxidata.tar.gz .
+  147  tar -xzvf taxidata.tar.gz
+  148  grep '2019-03-12' taxi_data.csv > filtered_data.txt
+  149  grep '2019-03-12' taxidata.csv > filtered_data.txt
+  150  grep '2019-03-12' taxidata > filtered_data.txt
+  151  grep '2019-03-12' results.txt > filtered_data.
+  152  cat results.txt
+  153  grep 'dropoff[^"]*"2019-03-12' *.csv > results.txt
+  154  cp /datasets/taxidata.tar.gz .
+  155  tar zxvf tarred_file.tar.gz
+  156  tar xvf tarred_file.tar
+  157  ls
+  158  tar xvf tarred_file.tar
+  159  tar -xzf taxidata.tar.gz
+  160  cp /datasets/taxidata.tar.gz
+  161  cp /datasets/taxidata.tar.gz .
+  162  tar zxvf tarred_file.tar.gz .
+  163  ls
+  164  tar xzf tarred_file.tar.gz
+  165  ls
+  166  ls
+  167  rm filtered_data.
+  168  rm filtered_data.txt
+  169  rm index.html.1
+  170  ls
+  171  rm results.txt
+  172  rm index.html
+  173  rm results.txt
+  174  ls
+  175  rm cmds.logg
+  176  rm cmds.logq
+  177  ls
+  178  rm cmds.log
+  179  ls
+  180  rm myproject
+  181  ls
+  182  rmdir rm taxidata
+  183  ls
+  184  rmdir taxidata
+  185  rmdir my_taxidata
+  186  cp /datasets/taxidata.tar.gz .
+  187  ls
+  188  tar -xzf taxidata.tar.gz
+  189  pwd
+  190  grep -c '2019-03-12' taxidata >> results.txt
+  191  grep -c '2019-03-12' filename.csv >> results.txt
+  192  grep -c '2019-03-12' taxidata.csv >> results.txt
+  193  ls
+  194  grep: taxidata.csv: No such file or directory
+  195  ls
+  196  cp /datasets/taxidata.tar.gz .
+  197  tar -xzvf taxidata.tar.gz
+  198  ls
+  199  tail -n 20 filtered_data.txt > results.txt
+  200  cp /datasets/taxidata.tar.gz .
+  201  tar -xzf taxidata.tar.gz
+  202  zcat yellow_tripdata_2019-03.csv | grep '^.*,"2019-03-12.*",.*$'
+  203  ls
+  204  zcat yellow_tripdata_2019-03.csv | grep '^.*,"2019-03-12.*",.*$'
+  205  tar -xzvf taxidata.tar.gz yellow_tripdata_2019-03.csv
+  206  ls
+  207  cp /datasets/taxidata.tar.gz .
+  208  tar -xzvf taxidata.tar.gz yellow_tripdata_2019-03.csv
+  209  cp /datasets/taxidata.tar.gz .
+  210  ls
+  211  tar zxvf taxidata.tar.gz
+  212  ls
+  213  grep ',2019-03-12,' taxidata/*.csv
+  214  tail -n 20 > results.txt
+  215  cp /datasets/taxidata.tar.gz .
+  216  ls
+  217  tar zxvf tarred_file.tar.gz
+  218  tar zxvf taxidata.tar.gz
+  219  grep ',2019-03-12,' taxidata/*.csv
+  220  command_that_generates_output | tail -n 20 > results.txt
+  221  tail -20 > results.txt
+  222  ls
+  223  tar zxvf taxidata.tar.gz
+  224  grep ',2019-03-12,' taxidata/*.csv
+  225  tail -20 results.txt
+  226  ls
+  227  cp /datasets/taxidata.tar.gz .
+  228  ls
+  229  tar zxvf taxidata.tar.gz
+  230  grep ',2019-03-12,' taxidata/*.csv
+  231  tail -20 results.txt
+  232  ls
+  233  tar zxvf taxidata.tar.gz
+  234  grep ',2019-03-12,' taxidata/*.csv
+  235  tail -20 results.txt
+  236  touch results.txt
+  237  taxidata/*.csv
+  238  [fnus23fa@sjsu ~]$ tail -20 results.txt
+  239  ls
+  240  tail -20 results.txt
+  241  wc -l < results.txt >> results.txt
+  242  history > cmds.log
+  243  ls
+  244  cd cs131
+  245  mkdir ws2
+  246  ls
+  247  history > cmds.log
