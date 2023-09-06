@@ -212,34 +212,110 @@
   212  ls
   213  grep ',2019-03-12,' taxidata/*.csv
   214  tail -n 20 > results.txt
-  215  tar zxvf taxidata.tar.gz
-  216  grep ',2019-03-12,' taxidata/*.csv
-  217  tail -20 results.txt
-  218  wc -l < results.txt >> results.txt
-  219  ls
-  220  history > cmds.log
-  221  ls
-  222  mkdir ws2
-  223  mv results.txt ws2/
-  224  mv cmds.log ws2/
-  225  git add ws2/
-  226  git init
-  227  git add ws2/
+  215  cp /datasets/taxidata.tar.gz .
+  216  ls
+  217  tar zxvf tarred_file.tar.gz
+  218  tar zxvf taxidata.tar.gz
+  219  grep ',2019-03-12,' taxidata/*.csv
+  220  command_that_generates_output | tail -n 20 > results.txt
+  221  tail -20 > results.txt
+  222  ls
+  223  tar zxvf taxidata.tar.gz
+  224  grep ',2019-03-12,' taxidata/*.csv
+  225  tail -20 results.txt
+  226  ls
+  227  cp /datasets/taxidata.tar.gz .
   228  ls
-  229  cd /path/to/your/git/repo
-  230  ls
-  231  cd cs131
-  232  git commit -m "Added results.txt and cmds.log in ws2"
-  233  git push origin main
-  234  ls
-  235  git push origin main
+  229  tar zxvf taxidata.tar.gz
+  230  grep ',2019-03-12,' taxidata/*.csv
+  231  tail -20 results.txt
+  232  tar zxvf taxidata.tar.gz
+  233  grep ',2019-03-12,' taxidata/*.csv
+  234  tail -20 results.txt
+  235  wc -l < results.txt >> results.txt
   236  ls
-  237  git add
-  238  git add .
-  239  git add ws2/
-  240  git add ws2
-  241  git init
-  242  mkdir ws2
-  243  mv results.txt cmds.log ws2/
-  244  ls
-  245  history > cmds.log
+  237  history > cmds.log
+  238  ls
+  239  mkdir ws2
+  240  mv results.txt ws2/
+  241  mv cmds.log ws2/
+  242  git add ws2/
+  243  git init
+  244  git add ws2/
+  245  ls
+  246  cd /path/to/your/git/repo
+  247  ls
+  248  cd cs131
+  249  git commit -m "Added results.txt and cmds.log in ws2"
+  250  git push origin main
+  251  ls
+  252  git push origin main
+  253  ls
+  254  git add
+  255  git add .
+  256  git add ws2/
+  257  git add ws2
+  258  git init
+  259  mkdir ws2
+  260  mv results.txt cmds.log ws2/
+  261  ls
+  262  history > cmds.log
+  263  ls
+  264   mv results.txt cmds.log ws2/
+  265   mv results.txt cmds.log ws2
+  266  wc -l < results.txt >> results.txt
+  267  ls
+  268  ls
+  269  tar zxvf taxidata.tar.gz
+  270  grep ',2019-03-12,' taxidata/*.csv
+  271  tail -20 results.txt
+  272  touch results.txt
+  273  taxidata/*.csv
+  274  [fnus23fa@sjsu ~]$ tail -20 results.txt
+  275  ls
+  276  tail -20 results.txt
+  277  wc -l < results.txt >> results.txt
+  278  history > cmds.log
+  279  ls
+  280  cd cs131
+  281  mkdir ws2
+  282  ls
+  283  history > cmds.log
+  284  ls
+  285  git init
+  286  git status
+  287  git add cmds.log
+  288  git commit -m "ws2"
+  289  git status
+  290  git branch -M main
+  291  git remote add origin https://github.com/chsaad98
+  292  Set status
+  293  git remote add origin https://github.com/chsaad98/cs131.git
+  294  git add ws2/
+  295  git commit -m "Added results.txt and cmds.log in ws2"
+  296  git push origin main
+  297  git remote add origin https://github.com/chsaad98/cs131/projects?query=is%3Aopen
+  298  ls
+  299  tar zxvf taxidata.tar.gz
+  300  grep ',2019-03-12,' taxidata.txt
+  301  grep ',2019-03-12,'taxidata.csv
+  302  tar zxvf taxidata.tar.gz
+  303  grep ',2019-03-12,' taxidata/*.csv
+  304  tail -20 results.txt
+  305  wc -l < results.txt >> results.txt
+  306  ls
+  307  history > cmds.log
+  308  cd cs131
+  309  mkdir ws2
+  310  mkdir ws2/
+  311  mkdir ws2*/
+  312  mv results.txt cmds.log ws2/
+  313  ls
+  314  history > cmds.log
+  315  ls
+  316  mv results.txt cmds.log ws2/
+  317  ls
+  318  mv results.txt ws2/
+  319  touch results.txt
+  320  ls
+  321  history > cmds.log
