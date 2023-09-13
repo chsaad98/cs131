@@ -1,0 +1,121 @@
+[fnus23fa@sjsu ~]$ mkdir a1
+[fnus23fa@sjsu ~]$ cd a1
+[fnus23fa@sjsu a1]$ echo $HOME
+/mnt/scratch/fnus23fa               
+
+2):  # The home directory path is mnt
+    to find the direcotry path I used echo $HOME
+
+[fnus23fa@sjsu a1]$ id
+uid=1038(fnus23fa) gid=1038(fnus23fa) groups=1038(fnus23fa)
+
+3): uid is 1038 (fnus23fa)
+    group is 1038(fnus23fa)
+    To find out i used id command 
+
+
+[fnus23fa@sjsu a1]$ mkdir temp       
+[fnus23fa@sjsu a1]$ chmod -x temp
+[fnus23fa@sjsu a1]$ cd temp
+-bash: cd: temp: Permission denied
+
+4): No I m not allow to use cd in the directory 
+
+[fnus23fa@sjsu a1]$ ls 
+temp
+
+4): Yes i can use ls
+[fnus23fa@sjsu a1]$ ls -l 
+total 4
+
+4): yes i can use ls-1 
+drw-rw-r-- 2 fnus23fa fnus23fa 4096 Sep 13 02:13 temp
+[fnus23fa@sjsu a1]$ touch test.txt
+
+4): yes i can use file under direcotry
+
+[fnus23fa@sjsu a1]$ mkdir temp2
+[fnus23fa@sjsu a1]$ mv temp2 temp3
+
+5); Yes i allow to move directory temp2 temp3
+
+[fnus23fa@sjsu a1]$ cp -r temp3 temp4
+
+5): Yes i m allow to cp a directory, to cp a entire directory i would use cp -r 
+
+[fnus23fa@sjsu a1]$ ls /proc/ | grep mem
+iomem
+meminfo
+
+6):  Meminfo contains information about memory (mem) on server 
+
+[fnus23fa@sjsu a1]$ ls /proc/ | grep cpu
+cpuinfo
+
+6): Cpuinfo contains information about the cpu's on the server
+
+[fnus23fa@sjsu a1]$ head /proc/meminfo
+MemTotal:       73080512 kB   7):  Total memory i have 73080512 kb
+
+MemFree:        16374016 kB
+MemAvailable:   57591680 kB
+Buffers:          631168 kB
+Cached:         42112448 kB
+SwapCached:        25344 kB
+Active:         35042304 kB
+Inactive:        9407168 kB
+Active(anon):     517824 kB
+Inactive(anon):  2163328 kB
+[fnus23fa@sjsu a1]$ head /proc/cpuinfo
+
+processor	: 0       8):  head has 0 processor
+
+cpu		: POWER8 (architected), altivec supported
+clock		: 3425.000000MHz
+revision	: 2.1 (pvr 004b 0201)
+
+processor	: 1
+cpu		: POWER8 (architected), altivec supported
+clock		: 3425.000000MHz
+revision	: 2.1 (pvr 004b 0201)
+
+[fnus23fa@sjsu a1]$ tail /proc/cpuinfo
+
+processor	: 255             8): tail has 255 processor.
+ 
+cpu		: POWER8 (architected), altivec supported  
+
+8): the architecture name is Power8
+
+clock		: 3425.000000MHz    the processor speed is 3.425 ghz
+revision	: 2.1 (pvr 004b 0201)
+
+timebase	: 512000000
+platform	: pSeries
+model		: IBM,8247-22L
+machine		: CHRP IBM,8247-22L
+MMU		: Hash
+[fnus23fa@sjsu a1]$ grep "cpu MHz" /proc/cpuinfo
+[fnus23fa@sjsu a1]$ cat /etc/os-release
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+[fnus23fa@sjsu a1]$ ls -l /etc/os-release
+lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
+9):it is under "Red hat enterprise linux"
+
+fnus23fa@sjsu a1]$ vi a1.txt
