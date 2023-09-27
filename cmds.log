@@ -1,986 +1,940 @@
-   13  grep ',2019-03-12,' taxidata/*.csv
-   14  tail -20 results.txt
-   15  wc -l < results.txt >> results.txt
-   16  ls
-   17  history > cmds.log
-   18  cd cs131
-   19  mkdir ws2
-   20  mkdir ws2/
-   21  mkdir ws2*/
-   22  mv results.txt cmds.log ws2/
-   23  ls
-   24  history > cmds.log
-   25  ls
-   26  mv results.txt cmds.log ws2/
-   27  ls
-   28  mv results.txt ws2/
-   29  touch results.txt
-   30  ls
-   31  history > cmds.log
+   14  ls
+   15  ls taxidata
+   16  ls myproject
+   17  clear
+   18  ls
+   19  rm -r taxidata
+   20  ls
+   21  ls taxidata.tar.gz
+   22  ls
+   23  rm -r taxidata.tar.gz
+   24  ls
+   25  rm results.txt
+   26  ls
+   27  rm myproject
+   28  rm -r myproject
+   29  ls
+   30  clear
+   31  cp /datasets/taxidata.tar.gz .
    32  ls
-   33  mv results.txt cmds.log ws2/
-   34  git add ws2/
-   35  git commit -m "Add files results.txt and cmds.log to ws2 directory"
-   36  git push origin main
-   37  ls
-   38  ls -a
-   39  vim .bashrc
-   40  vim .bash_profile
-   41  vim .bashrc
-   42  cp /datasets/taxidata.tar.gz .
-   43  tar zxvf tarred_file.tar.gz
-   44  ls
-   45  tar zxvf taxidata.tar.gz
-   46  cd taxidata
-   47  ls
-   48  less taxidata.csv
-   49  source .bashrc
-   50  vim .bashrc
-   51  vim.bashrc
-   52  vim .bashrc
-   53  echo $Home
-   54  echo "hello"
-   55  echo $Home
-   56  echo $HOME
-   57  ls
-   58  cd results.txt
-   59  vim results.txt
-   60  mv ws2 results.txt
-   61  cat /path/to/folder/* > /path/to/outputfile
-   62  cat /path/to/ws2/* > /path/to/results.txt
-   63  ls
-   64  cp /datasets/taxidata.tar.gz .
-   65  ls
-   66  ls
-   67  cp /datasets/taxidata.tar.gz .
-   68  tar zxvf taxidata.tar.gz
-   69  ls
-   70  vi results.txt
-   71  grep '2019-03-12' * > resuslts.txt
+   33  tar zxvf lol.tar.gz
+   34  tar zxvf taxidata.tar.gz
+   35  ls
+   36  grep ' 2019-03-12 ' 2019-03.csv
+   37  grep ' 2019-03-12 *' > 2019-03.csv
+   38  grep ' 2019-03-12 *'  2019-03.csv
+   39  ls
+   40  vi 2019-03.csv
+   41  ls -l
+   42  ls -1
+   43  ls 2019-03.csv
+   44  less 2019-03.csv
+   45  vi 2019-03-csv
+   46  vi taxidata
+   47  cd taxidata
+   48  ls
+   49  vi 2019-03.csv
+   50  tail -20 2019-03.csv
+   51  tail -20 results.txt
+   52  ls
+   53  clear
+   54  ls
+   55  cd ..
+   56  ls
+   57  rm 2019-03.csv
+   58  ls
+   59  cp /datasets/taxidata.tar.gz .
+   60  tar zxvf taxi.tar.gz
+   61  tar zxvf taxidata.tar.gz
+   62  ls
+   63  cd taxidata
+   64  ls
+   65  ls -1
+   66  grep -E ',"2019-03-12",' /path/to/taxidata/2019-03.csv
+   67  grep -E ',"2019-03-12",' taxidata/2019-03.csv
+   68  pwd
+   69  grep -E ',"2019-03-12",' 2019-03.csv
+   70  vim 2019-03.csv
+   71  tail -n 20 2019-03.csv > results.txt
    72  ls
-   73  ls resuslts.txt
-   74  vi resuslts.txt
-   75  tail -20 resuslts.txt
-   76  wc -l results.txt >> results.txt
-   77  ls
-   78  grep -c '2019-03-12' * | awk -F':' '{sum+=$2} END {print sum}' >> results.txt
-   79  grep -c '2019-03-12' * | awk -F':' '{sum+=$2} END {print sum}' >> resuslts.txt
-   80  ls
-   81  ls resuslts.txt
-   82  vi resuslts.txt
-   83  ls
-   84  rmdir resuslts.txt
-   85  rmkdir resuslts.txt
-   86  vim results.txt
-   87  vim resuslts.txt
-   88  vim taxidata.tar.gz
-   89  ls
-   90  clear
-   91  :q
+   73  history | grep -vE '(history|grep -vE|tail|less|more)' > cmds.log
+   74  mkdir ws2
+   75  mv results.txt ws2/
+   76  mv cmds.log ws2/
+   77  git add ws2/results.txt
+   78  git add ws2/cmds.log
+   79  git commit -m "Add results.txt and cmds.log to ws2 directory"
+   80  git push origin main
+   81  clear
+   82  ls
+   83  cd ..
+   84  ls
+   85  cd taxidata
+   86  ls
+   87  vim ws2
+   88  ls ws2
+   89  vim results.txt
+   90  less cmds.log
+   91  cat results.txt
    92  ls
-   93  vim cmds,.log
-   94  vim resuslts.txt
-   95  vim taxidata
-   96  vim resuslts.txt
-   97  cd resuslts.txt
-   98  ls
-   99  vim cmds.log
-  100  clear
-  101  ls
-  102  history>cmds.log
-  103  mkdir ws2/
-  104  ls
-  105  mkdir ws2..
-  106  mv results.txt ws2/
-  107  ls
-  108  cd ws2
-  109  ls
-  110  rmkdir reslts.txt
-  111  rm results.txt
-  112  ls
-  113  cd ..
-  114  ls
-  115  history clear
-  116  clear
-  117  ls
-  118  tail -20 resuslts.txt
-  119  tail -20 > resuslts.txt
-  120   tail -n 20 > results.txt
-  121  history > cmds.log
-  122  mv cmds.log ws2../
-  123  mv results.txt ws2../
-  124  cd ws2../
-  125  git add .
-  126  git commit -m "Add results.txt and cmds.log to ws2 direcotry"
-  127  git push origin main
-  128  vim cmds.log
-  129  git push origin main
-  130  git push
-  131  ls
-  132  git push origin main 
-  133  ls
-  134  rm resuslts.txt
-  135  ls
-  136  cp /datasets/taxidata.tar.gz .
-  137  tar zxvf tarred_file.tar.gz
-  138  tar zxvf taxidatae.tar.gz
-  139  ls
-  140  tar zxvf taxidata.tar.gz
-  141  grep '2019-03-12' * > results.txt
-  142  ls
-  143  vim results.txt
-  144  vi results.txt
-  145  tail -20 > results.txt
-  146  vi results.txt
-  147  grep '2019-03-12.csv' * > results.txt
-  148  vi results.txt
-  149  ls
-  150  grep '2019-03-12' * > results.txt
-  151  vi results.txt
-  152  grep ' 2019-03-12 ' * > results.txt
-  153  vim results.txt
-  154  ls
-  155  rmdir results.txt
-  156  rm results.txt
-  157  ls
-  158  clear
-  159  ls
-  160  grep ' 2019-03-12' >resultus.txt
-  161  tar -xzvf taxidata.tar.gz
-  162  grep ' 2019-03-12 ' * > resultus.txt.
+   93  vim 2019-03.csv
+   94  ls
+   95  grep -E ',"2019-03-12",' 2019-03.csv | tee -a results.txt && echo "Total matching entries: $(grep -c -E ',"2019-03-12",' 2019-03.csv)" >> results.txt
+   96  ls
+   97  vim results.txt
+   98  vim 2019-03.csv
+   99  vim ws2
+  100  vim results.txt
+  101  grep -E ',"2019-03-12",' 2019-03.csv
+  102  vim results.txt
+  103  vim 2019-03.csv
+  104  :q
+  105  tail -n 20 2019-03.csv > results.txt
+  106  vim results.txt
+  107  history | grep -vE '(history|grep -vE|tail|less|more)' > cmds.log
+  108  ls
+  109  vim results.txt
+  110  grep -E ',"2019-03-12",' 2019-03.csv | tee -a results.txt && echo "Total matching entries: $(grep -c -E ',"2019-03-12",' 2019-03.csv)" >> results.txt
+  111  vim results.txt
+  112  vim "2019-03-12" results.txt
+  113  gre '2019-03-12 ' results.txt
+  114  grep -E ',"2019-03-12",' results.txt
+  115  vim results.txt
+  116  less results.txt
+  117  grep -E ',"2019-03-31",'results.txt
+  118  gre '2019-03-12 ' results.txt
+  119  grep '2019-03-12 ' results.txt
+  120  vim results.txt
+  121  ls
+  122  vim results.txt
+  123   grep '2019-03-31 ' results.txt
+  124  ls
+  125  cd taxidata
+  126  ls
+  127  vim results.txt
+  128  ls results.txt
+  129  grep '2019-03-12 ' 2019-03.csv
+  130  :Q
+  131  :q
+  132  tail -n 20 2019-03.csv > results.txt
+  133  vim results.txt
+  134  grep '2019-03-12' results.txt
+  135  vim results.txt
+  136  clear
+  137  cd ..
+  138  ls
+  139  cd taxidata
+  140  ls
+  141  vim ws2
+  142  cat ws2
+  143  less ws2
+  144  vim results.txt
+  145  vim 2019-03.csv
+  146  grep '2019-03-12 .*' 2019-03.csv > results.txt
+  147  ls
+  148  vim results.txt
+  149  vim 2019-03.csv
+  150  vim results.txt
+  151  ls
+  152  clear
+  153  grep "2019-03-12" 2019-03.csv
+  154  :Q
+  155  :q
+  156  grep "2019-03-12" results.txt
+  157  ls -l
+  158  tail -n 20 2019-03.csv > results.txt
+  159  grep "2019-03-12" results.txt
+  160  vim results.txt
+  161  clear 
+  162  cd ..
   163  ls
-  164  vi resultus.txt
-  165  grep ' 2019-03-12 ' * > results.txt
-  166  grep '2019-03-12'
-  167  grep -E '2019-03-12*'> results.txt
-  168  grep -E '2019-03-12' *> results.txt
-  169  vim results.txt
-  170  ls
-  171  rm resultus.txt
+  164  cd taxidata
+  165  ls
+  166  ls -l 
+  167  cd taxidata
+  168  ls
+  169  csvlook 2019-02.csv
+  170  csvlook 2019-01.csv
+  171  clear
   172  ls
-  173  rm results.txt
-  174  rm resultus.txt
-  175  rm resultus.txt.
+  173  cleear
+  174  clear
+  175  cd ..
   176  ls
-  177  rmkdir ws2..
-  178  ls
-  179  cp /datasets/taxidata.tar.gz .
-  180  tar -xzvf taxidata.tar.gz
-  181  grep ' 2019-03-12 ' * > results.txt
-  182  vi results.txt
-  183  cp /datasets/taxidata.tar.gz .
-  184  tar -xzvf taxidata.tar.gz
-  185  grep ' 2019-03-12 ' * > results.txt
-  186  vi results.txt
-  187  wc -l results.txt >> results.txt
-  188  vi results.txt
-  189  history | grep -v 'history' > cmds.log
-  190  ls
-  191  vi results.txt
-  192  histoclear 
-  193  ls
-  194  rm results.txt
-  195  ls
-  196  cp /datasets/taxidata.tar.gz .
-  197  tar -xzvf taxidata.tar.gz
-  198  grep ' 2019-03-12 ' * > results.txt
-  199  vim results.txt
-  200  vi results.txt
-  201  ls
-  202  cd taxidata
-  203  ls
-  204  grep ' 2019-03-12 ' * > results.txt
-  205  vi results.txt
-  206  less 2019-03.csv
-  207  vim results.txt
-  208  cd..
-  209  cd ..
-  210  vi results.txt
-  211  ls
-  212  cat /etc/passwd
-  213  cat/etc/shadow
-  214  cat/etc/froup
-  215  cat/etc/group
-  216  mkdir 0911
-  217  ls
-  218  vim hello.txt
-  219  ls-1
-  220  vim helclear
-  221  clear
-  222  ls-1
-  223  ls
-  224  vim.hellovim.txt
-  225  vim hellovim.txt
-  226  cd taxidata
+  177  clear
+  178  cd taxidata
+  179  ls
+  180  csvcut -c 8 2019-01.csv | sort | uniq -c | sort -nr | head -n 3
+  181  clear
+  182  ls
+  183  cd ..
+  184  ls
+  185  cp 0911 hellovim.txt
+  186  cp -r 0911 hellovim.txt
+  187  ls
+  188  ls hellovim.txt
+  189  ls
+  190  cd taxidata
+  191  ls
+  192  ls
+  193  cd taxidata
+  194  logout
+  195  cd taxidata
+  196  ls
+  197  vi 2019-03.csv
+  198  awk '{print}' 2019-03.csv | sort | uniq -c |sort -nr | head -n3
+  199  # Extract the January 2019 CSV file
+  200  tar -xzvf /datasets/taxidata.tar.gz 2019-01.csv
+  201  cd taxidata
+  202  ls
+  203  # Extract the January 2019 CSV file
+  204  tar -xzvf /datasets/taxidata.tar.gz 2019-01.csv
+  205  claer
+  206  cd taxidata
+  207  ls
+  208  awk -F, '{print $8}' 2019-01.csv | sort | uniq -c | sort -nr | head -n 3
+  209  awk -F, '{print $8}' 2019-01.csv | sort | uniq -c | sort -nr | head -n 3 |
+  210  claer
+  211  clear
+  212  ls
+  213  awk '{print}' 2019-01.csv
+  214  cd taxidata
+  215  ls
+  216  cat 2019-02.csv | grep -E '^[^,]+,[^,]+,2019-02' | cut -d ',' -f 6 | sort | uniq -c | sort -nr | head -n 3
+  217  cat 2019-01.csv | grep -E '^[^,]+,[^,]+,2019-01' | cut -d ',' -f 6 | sort | uniq -c | sort -nr | head -n 3
+  218  cat 2019-01.csv | grep -E '^[^,]+,[^,]+,2019-01' | cut -d ',' -f 6 | sort | uniq -c | sort -nr | head -n 3 > ws3.txt
+  219  vi ws3.txt
+  220  head -n 5 2019-01.csv
+  221  cut -d ',' -f 4 2019-01.csv | sort | uniq -c | sort -nr
+  222  ls
+  223  cd taxidata
+  224  ls
+  225  # Extract data for January 2019 and sort pickup location IDs
+  226  grep '^2019-01' *.csv | cut -d ',' -f 7 | sort | uniq -c | sort -nr | head -n 3 > cs131/ws3/ws3_task1.txt
   227  ls
-  228  ls-1
-  229  ls -1
-  230  vim taxidata
-  231  vim results.txt
-  232  cd results.txt
-  233  ls results.txt
-  234  cd results.txt
-  235  ls -l
-  236  cd taxidata
-  237  ls
-  238  cd ..
-  239  ls
-  240  rm -r ws2
+  228  cd cs131/ws3.txt/
+  229  cd cs131
+  230  ls
+  231  cd cs131/ws3.txt/
+  232  git init
+  233  git status
+  234  git add ws3.txt cmds.log
+  235  git branch -M main
+  236  git remote add origin git clone https://github.com/chsaad98/cs131.git
+  237  ls ws3.txt
+  238  git add .
+  239  git push
+  240  git push origin main
   241  ls
-  242  rm -r ws2..
-  243  ls
-  244  clear
-  245  ls
-  246  cd taxidata
-  247  ls -1
-  248  ls -2
-  249  ls
-  250  ls -l
-  251  ls
-  252  cd taxidata
+  242  git add cs131/ws3/*
+  243  git add cs131/ws3.txt/*
+  244  cd ..
+  245  git add cs131/ws3/*
+  246  git add cs131/ws3.txt/*
+  247  git commit -m "Add ws3.txt and cmds.log with Task 1 and Task 2 outputs"
+  248  git push origin main
+  249  cd cs131
+  250  git commit -m "Add ws3.txt and cmds.log with Task 1 and Task 2 outputs"
+  251  git push origin main 
+  252  vi ws3.txt
   253  ls
-  254  grep -E "2019-03-12" 2019-03.csv
+  254  cd taxidata
   255  ls
-  256  vi results.txt
-  257  cd taxidata
-  258  ls
-  259  vi taxidata
-  260  vi 2019-03.csv
-  261  [2;2R1;95;0c10;rgb:ffff/ffff/ffff11;rgb:1e1e/1e1e/1e1e:q
-  262  ls
-  263  vi 2019-03.csv
-  264  vim 2019-03.csv
-  265  2R1;95;0c10;rgb:ffff/ffff/ffff11;rgb:1e1e/1e1e/1e1e:q
-  266  ls
-  267  rm -r 0828
-  268  ls
-  269  ls taxidata
-  270  ls myproject
-  271  clear
+  256  vim ws3.txt
+  257  ls
+  258  rm -r a1
+  259  ls
+  260  cd taxidata
+  261  ls
+  262  vi ws3.txt
+  263  cd taxidata
+  264  cut -d ',' -f 8 2019-01.csv | sort | uniq -c | sort -nr | head -n 3 > ws3.txt
+  265  cut -d ',' -f 8 2019-02.csv | sort | uniq -c | sort -nr | head -n 3 >> ws3.txt
+  266  vi ws3.txt
+  267  history > cmds.log
+  268  vi cmds.log
+  269  git clone https://github.com/chsaad98/cs131
+  270  cd cs131/ws3/
+  271  cd ..
   272  ls
-  273  rm -r taxidata
+  273  cd taxidata
   274  ls
-  275  ls taxidata.tar.gz
-  276  ls
-  277  rm -r taxidata.tar.gz
-  278  ls
-  279  rm results.txt
-  280  ls
-  281  rm myproject
-  282  rm -r myproject
-  283  ls
-  284  clear
-  285  cp /datasets/taxidata.tar.gz .
-  286  ls
-  287  tar zxvf lol.tar.gz
-  288  tar zxvf taxidata.tar.gz
-  289  ls
-  290  grep ' 2019-03-12 ' 2019-03.csv
-  291  grep ' 2019-03-12 *' > 2019-03.csv
-  292  grep ' 2019-03-12 *'  2019-03.csv
-  293  ls
-  294  vi 2019-03.csv
-  295  ls -l
-  296  ls -1
-  297  ls 2019-03.csv
-  298  less 2019-03.csv
-  299  vi 2019-03-csv
-  300  vi taxidata
-  301  cd taxidata
-  302  ls
-  303  vi 2019-03.csv
-  304  tail -20 2019-03.csv
-  305  tail -20 results.txt
-  306  ls
-  307  clear
-  308  ls
-  309  cd ..
-  310  ls
-  311  rm 2019-03.csv
-  312  ls
-  313  cp /datasets/taxidata.tar.gz .
-  314  tar zxvf taxi.tar.gz
-  315  tar zxvf taxidata.tar.gz
-  316  ls
-  317  cd taxidata
+  275  cd cs131/ws3/
+  276  cd cs131/ws3.txt/
+  277  cd ws3.txt/
+  278  cd ..
+  279  ls
+  280  cd taxidata
+  281  [fnus23fa@sjsu taxidata]$ cd cs131/ws3/
+  282  -bash: cd: cs131/ws3/: No such file or directory
+  283  cd taxidata
+  284  ls
+  285  cd cs131/ws3/
+  286  pwd
+  287  cd ../cs131/ws3/
+  288  cd ws3
+  289  cd ws3.txt
+  290  vi cmds.log
+  291  git add ws3.txt cmds.log
+  292  git commit -m "Adding ws3.txt and cmds.log"
+  293  git push
+  294  git push origin main
+  295  cd ..
+  296  git push origin main
+  297  cd taxidata
+  298  ls
+  299  cd cs131/ws3/
+  300  ls
+  301  pwd
+  302  cd /mnt/scratch/fnus23fa/taxidata/cs131/ws3/
+  303  mv cs131/ws3/ws3.txt ../
+  304  mv ws3.txt ~/
+  305  ls
+  306  cd ..
+  307  ls
+  308  cd cs131/ws3
+  309  ls
+  310  vi ws3.txt
+  311  git init
+  312  git status
+  313  vi cmds.log
+  314  cd taxidata
+  315  ls
+  316  mv cmds .log ~/
+  317  mv cmds.log ~/
   318  ls
-  319  ls -1
-  320  grep -E ',"2019-03-12",' /path/to/taxidata/2019-03.csv
-  321  grep -E ',"2019-03-12",' taxidata/2019-03.csv
-  322  pwd
-  323  grep -E ',"2019-03-12",' 2019-03.csv
-  324  vim 2019-03.csv
-  325  tail -n 20 2019-03.csv > results.txt
-  326  ls
-  327  history | grep -vE '(history|grep -vE|tail|less|more)' > cmds.log
-  328  mkdir ws2
-  329  mv results.txt ws2/
-  330  mv cmds.log ws2/
-  331  git add ws2/results.txt
-  332  git add ws2/cmds.log
-  333  git commit -m "Add results.txt and cmds.log to ws2 directory"
-  334  git push origin main
-  335  clear
-  336  ls
-  337  cd ..
-  338  ls
-  339  cd taxidata
-  340  ls
-  341  vim ws2
-  342  ls ws2
-  343  vim results.txt
-  344  less cmds.log
-  345  cat results.txt
-  346  ls
-  347  vim 2019-03.csv
-  348  ls
-  349  grep -E ',"2019-03-12",' 2019-03.csv | tee -a results.txt && echo "Total matching entries: $(grep -c -E ',"2019-03-12",' 2019-03.csv)" >> results.txt
-  350  ls
-  351  vim results.txt
-  352  vim 2019-03.csv
-  353  vim ws2
-  354  vim results.txt
-  355  grep -E ',"2019-03-12",' 2019-03.csv
-  356  vim results.txt
-  357  vim 2019-03.csv
-  358  :q
-  359  tail -n 20 2019-03.csv > results.txt
-  360  vim results.txt
-  361  history | grep -vE '(history|grep -vE|tail|less|more)' > cmds.log
-  362  ls
-  363  vim results.txt
-  364  grep -E ',"2019-03-12",' 2019-03.csv | tee -a results.txt && echo "Total matching entries: $(grep -c -E ',"2019-03-12",' 2019-03.csv)" >> results.txt
-  365  vim results.txt
-  366  vim "2019-03-12" results.txt
-  367  gre '2019-03-12 ' results.txt
-  368  grep -E ',"2019-03-12",' results.txt
-  369  vim results.txt
-  370  less results.txt
-  371  grep -E ',"2019-03-31",'results.txt
-  372  gre '2019-03-12 ' results.txt
-  373  grep '2019-03-12 ' results.txt
-  374  vim results.txt
-  375  ls
-  376  vim results.txt
-  377   grep '2019-03-31 ' results.txt
-  378  ls
-  379  cd taxidata
-  380  ls
-  381  vim results.txt
-  382  ls results.txt
-  383  grep '2019-03-12 ' 2019-03.csv
-  384  :Q
-  385  :q
-  386  tail -n 20 2019-03.csv > results.txt
-  387  vim results.txt
-  388  grep '2019-03-12' results.txt
-  389  vim results.txt
-  390  clear
-  391  cd ..
-  392  ls
-  393  cd taxidata
-  394  ls
-  395  vim ws2
-  396  cat ws2
-  397  less ws2
-  398  vim results.txt
-  399  vim 2019-03.csv
-  400  grep '2019-03-12 .*' 2019-03.csv > results.txt
-  401  ls
-  402  vim results.txt
-  403  vim 2019-03.csv
-  404  vim results.txt
-  405  ls
-  406  clear
-  407  grep "2019-03-12" 2019-03.csv
-  408  :Q
-  409  :q
-  410  grep "2019-03-12" results.txt
-  411  ls -l
-  412  tail -n 20 2019-03.csv > results.txt
-  413  grep "2019-03-12" results.txt
-  414  vim results.txt
-  415  clear 
-  416  cd ..
+  319  cd ..
+  320  ls
+  321  vi cmds.log
+  322  git init
+  323  git status
+  324  git add ws3.txt cmds.log
+  325  git commit -m "Adding ws3.txt and cmds.log"
+  326  cd cs131/ws3/
+  327  it push origin main
+  328  git push origin main
+  329  git push
+  330  git clone https://github.com/chsaad98/cs131
+  331  cd cs131
+  332  ls
+  333  cd ..
+  334  mv ws3 cs131
+  335  mv ws3.txt cs131
+  336  cd cs131
+  337  ls
+  338  cd cs131/ws3/
+  339  cd ..
+  340  cd cs131/ws3/
+  341  mkdir a1
+  342  cd a1
+  343  echo $HOME
+  344  id
+  345  mkdir temp
+  346  chmod -x temp
+  347  cd temp
+  348  ls  
+  349  ls -l 
+  350  touch test.txt
+  351  mkdir temp2
+  352  mv temp2 temp3
+  353  cp -r temp3 temp4
+  354  mkdir a1
+  355  cd a1
+  356  echo $HOME
+  357  id
+  358  mkdir temp
+  359  chmod -x temp
+  360  cd temp
+  361  ls
+  362  ls -l 
+  363  touch test.txt
+  364  mkdir temp2
+  365  mv temp2 temp3
+  366  cp -r temp3 temp4
+  367  ls /proc/ | grep mem
+  368  ls /proc/ | grep cpu
+  369  head /proc/meminfo
+  370  head /proc/cpuinfo
+  371  tail /proc/cpuinfo
+  372  grep "cpu MHz" /proc/cpuinfo
+  373  cat /etc/os-release
+  374  ls -l /etc/os-release
+  375  vi a1.txt
+  376  git init
+  377  git add .
+  378  git commit -m "Initial commit"
+  379  git clone https://github.com/chsaad98/cs131.git
+  380  git push
+  381  git push origin main
+  382  git init
+  383  git branch -M main
+  384  git remote add origin  https://github.com/chsaad98/cs131.git
+  385  git status
+  386  git add .
+  387  git commit -m "Initial commit"
+  388  git push 
+  389  git push origin main
+  390  git init
+  391  git add .
+  392  git commit -m "Initial commit"
+  393  git remote add origin https://github.com/chsaad98/cs131.git
+  394  git add cmds.log a1.txt
+  395  git push origin main
+  396  git add cmds.log a1.txt
+  397  ls
+  398  vi a1.txt
+  399  cd ..
+  400  mv cmds.log a1
+  401  cd a1
+  402  ls
+  403  git add cmds.log a1.txt
+  404  vi cmds.log
+  405  cd 0911
+  406  touch cat
+  407  find ./ -type f -empty
+  408  touch dog
+  409  find ./ -type f -empty | xargs
+  410  ls
+  411  find ./ -type f -empty rm -rf
+  412  clear
+  413  cd ..
+  414  ls
+  415  ls a1
+  416  cd a1
   417  ls
-  418  cd taxidata
-  419  ls
-  420  ls -l 
-  421  cd taxidata
-  422  ls
-  423  csvlook 2019-02.csv
-  424  csvlook 2019-01.csv
-  425  clear
-  426  ls
-  427  cleear
-  428  clear
-  429  cd ..
-  430  ls
-  431  clear
-  432  cd taxidata
+  418  cd ..
+  419  rm temp
+  420  clear
+  421  ls
+  422  rm -r a1
+  423  ls
+  424  cd 0911
+  425  ls
+  426  vi a1.txt
+  427  cd a1
+  428  vi a1.txt
+  429  vim a1.txt
+  430  cd ..
+  431  ls
+  432  cd a1
   433  ls
-  434  csvcut -c 8 2019-01.csv | sort | uniq -c | sort -nr | head -n 3
-  435  clear
-  436  ls
-  437  cd ..
-  438  ls
-  439  cp 0911 hellovim.txt
-  440  cp -r 0911 hellovim.txt
+  434  ls cs131
+  435  ls
+  436  rm -rf cs131
+  437  ls
+  438  cd ..
+  439  ls
+  440  mv a1 cs131/
   441  ls
-  442  ls hellovim.txt
+  442  cd cs131
   443  ls
-  444  cd taxidata
+  444  cd a1/
   445  ls
-  446  ls
-  447  cd taxidata
-  448  logout
-  449  cd taxidata
-  450  ls
-  451  vi 2019-03.csv
-  452  awk '{print}' 2019-03.csv | sort | uniq -c |sort -nr | head -n3
-  453  # Extract the January 2019 CSV file
-  454  tar -xzvf /datasets/taxidata.tar.gz 2019-01.csv
-  455  cd taxidata
-  456  ls
-  457  # Extract the January 2019 CSV file
-  458  tar -xzvf /datasets/taxidata.tar.gz 2019-01.csv
-  459  claer
-  460  cd taxidata
-  461  ls
-  462  awk -F, '{print $8}' 2019-01.csv | sort | uniq -c | sort -nr | head -n 3
-  463  awk -F, '{print $8}' 2019-01.csv | sort | uniq -c | sort -nr | head -n 3 |
-  464  claer
-  465  clear
+  446  vi a1.txt
+  447  vim ai.txt
+  448  vi a1.txt
+  449  cd ..
+  450  git add a1
+  451  git commit -m "a1 txtfile"
+  452  git push origin main
+  453  ls
+  454  cp /datasets/taxidata.tar.gz .
+  455  ls
+  456  cd 09``
+  457  0911
+  458  cd 0911 
+  459  ls
+  460  clear
+  461  cd ..
+  462  ls
+  463  cd taxidata
+  464  ls
+  465  less 2019-11.csv
   466  ls
-  467  awk '{print}' 2019-01.csv
-  468  cd taxidata
-  469  ls
-  470  cat 2019-02.csv | grep -E '^[^,]+,[^,]+,2019-02' | cut -d ',' -f 6 | sort | uniq -c | sort -nr | head -n 3
-  471  cat 2019-01.csv | grep -E '^[^,]+,[^,]+,2019-01' | cut -d ',' -f 6 | sort | uniq -c | sort -nr | head -n 3
-  472  cat 2019-01.csv | grep -E '^[^,]+,[^,]+,2019-01' | cut -d ',' -f 6 | sort | uniq -c | sort -nr | head -n 3 > ws3.txt
-  473  vi ws3.txt
-  474  head -n 5 2019-01.csv
-  475  cut -d ',' -f 4 2019-01.csv | sort | uniq -c | sort -nr
+  467  cd cs131
+  468  ls
+  469  cd taxidata
+  470  cd ..
+  471  cd taxidata
+  472  ls
+  473  cd 0911
+  474  cd ..
+  475  cd 0911
   476  ls
-  477  cd taxidata
-  478  ls
-  479  # Extract data for January 2019 and sort pickup location IDs
-  480  grep '^2019-01' *.csv | cut -d ',' -f 7 | sort | uniq -c | sort -nr | head -n 3 > cs131/ws3/ws3_task1.txt
-  481  ls
-  482  cd cs131/ws3.txt/
-  483  cd cs131
+  477  cd hellovim.txt
+  478  cd ..
+  479  cd hellovim.txt
+  480  ls
+  481  cd ..
+  482  clear
+  483  cd taxidata
   484  ls
-  485  cd cs131/ws3.txt/
-  486  git init
-  487  git status
-  488  git add ws3.txt cmds.log
-  489  git branch -M main
-  490  git remote add origin git clone https://github.com/chsaad98/cs131.git
-  491  ls ws3.txt
-  492  git add .
-  493  git push
-  494  git push origin main
+  485  cd cs131
+  486  ls
+  487  mv cmds -/
+  488  mv cmds.log -/
+  489  mv cmds ../
+  490  mv cmds.log ../
+  491  ls
+  492  cd ..
+  493  ls
+  494  cd taxidata
   495  ls
-  496  git add cs131/ws3/*
-  497  git add cs131/ws3.txt/*
-  498  cd ..
-  499  git add cs131/ws3/*
-  500  git add cs131/ws3.txt/*
-  501  git commit -m "Add ws3.txt and cmds.log with Task 1 and Task 2 outputs"
-  502  git push origin main
-  503  cd cs131
-  504  git commit -m "Add ws3.txt and cmds.log with Task 1 and Task 2 outputs"
-  505  git push origin main 
-  506  vi ws3.txt
+  496  mv cmds ../
+  497  mv cmds.log ../
+  498  ls
+  499  clear
+  500  ls
+  501  cd ws2
+  502  ls
+  503  cd ..
+  504  mv ws2 ../
+  505  ls
+  506  cd ..
   507  ls
   508  cd taxidata
-  509  ls
-  510  vim ws3.txt
-  511  ls
-  512  rm -r a1
-  513  ls
-  514  cd taxidata
-  515  ls
-  516  vi ws3.txt
-  517  cd taxidata
-  518  cut -d ',' -f 8 2019-01.csv | sort | uniq -c | sort -nr | head -n 3 > ws3.txt
-  519  cut -d ',' -f 8 2019-02.csv | sort | uniq -c | sort -nr | head -n 3 >> ws3.txt
-  520  vi ws3.txt
-  521  history > cmds.log
-  522  vi cmds.log
-  523  git clone https://github.com/chsaad98/cs131
-  524  cd cs131/ws3/
+  509  cd cs131
+  510  ls
+  511  cd ws2
+  512  ls
+  513  cd ..
+  514  mv cs131 ../
+  515  clear
+  516  ls
+  517  cs131
+  518  cd cs131
+  519  ls
+  520  vim ws2
+  521  cd ws2
+  522  ls
+  523  vim cmds.lof
+  524  vim results.txt
   525  cd ..
-  526  ls
-  527  cd taxidata
-  528  ls
-  529  cd cs131/ws3/
-  530  cd cs131/ws3.txt/
-  531  cd ws3.txt/
-  532  cd ..
-  533  ls
-  534  cd taxidata
-  535  [fnus23fa@sjsu taxidata]$ cd cs131/ws3/
-  536  -bash: cd: cs131/ws3/: No such file or directory
-  537  cd taxidata
-  538  ls
-  539  cd cs131/ws3/
-  540  pwd
-  541  cd ../cs131/ws3/
-  542  cd ws3
-  543  cd ws3.txt
-  544  vi cmds.log
-  545  git add ws3.txt cmds.log
-  546  git commit -m "Adding ws3.txt and cmds.log"
-  547  git push
-  548  git push origin main
-  549  cd ..
-  550  git push origin main
-  551  cd taxidata
-  552  ls
-  553  cd cs131/ws3/
-  554  ls
-  555  pwd
-  556  cd /mnt/scratch/fnus23fa/taxidata/cs131/ws3/
-  557  mv cs131/ws3/ws3.txt ../
-  558  mv ws3.txt ~/
-  559  ls
-  560  cd ..
+  526  cd ws1
+  527  ls
+  528  vim cmds.log
+  529  cd ..
+  530  ls
+  531  mv ws1 ../
+  532  ls
+  533  cd ..
+  534  ls
+  535  mv ws1 ../
+  536  ls
+  537  cd ..
+  538  clear 
+  539  ls 
+  540  cd ws1 
+  541  ls
+  542  vim cmds.log
+  543  cd ..
+  544  cd ws2 
+  545  ls 
+  546  vim cmds.log
+  547  vim results.txt
+  548  cd ..
+  549  ls
+  550  mv ws1 ws2 cs131
+  551  mv ws1 cs131
+  552  mv ws1 cs131/
+  553  clear 
+  554  cd cs131 
+  555  ls
+  556  cd ws1
+  557  ls
+  558  vim cmds.log
+  559  cd ..
+  560  cd ws2 
   561  ls
-  562  cd cs131/ws3
-  563  ls
-  564  vi ws3.txt
-  565  git init
-  566  git status
-  567  vi cmds.log
-  568  cd taxidata
-  569  ls
-  570  mv cmds .log ~/
-  571  mv cmds.log ~/
+  562  vim cmds.log
+  563  cd ws3.txt
+  564  cd ..
+  565  cd ws3.txt
+  566  ls
+  567  cd ws3.txt
+  568  vim ws3.txt
+  569  cd ..
+  570  ls
+  571  cd taxidata
   572  ls
-  573  cd ..
+  573  cd cs131
   574  ls
-  575  vi cmds.log
-  576  git init
-  577  git status
-  578  git add ws3.txt cmds.log
-  579  git commit -m "Adding ws3.txt and cmds.log"
-  580  cd cs131/ws3/
-  581  it push origin main
-  582  git push origin main
-  583  git push
-  584  git clone https://github.com/chsaad98/cs131
+  575  cd ws2
+  576  ls
+  577  vim cmds.log
+  578  vim results.txt
+  579  cd ..
+  580  clear
+  581  ls
+  582  cd ..
+  583  ls 
+  584  vim cmds.log
   585  cd cs131
   586  ls
-  587  cd ..
-  588  mv ws3 cs131
-  589  mv ws3.txt cs131
+  587  vim ws3.txt
+  588  cd ..
+  589  ls
   590  cd cs131
   591  ls
-  592  cd cs131/ws3/
-  593  cd ..
-  594  cd cs131/ws3/
-  595  mkdir a1
-  596  cd a1
-  597  echo $HOME
-  598  id
-  599  mkdir temp
-  600  chmod -x temp
-  601  cd temp
-  602  ls  
-  603  ls -l 
-  604  touch test.txt
-  605  mkdir temp2
-  606  mv temp2 temp3
-  607  cp -r temp3 temp4
-  608  mkdir a1
-  609  cd a1
-  610  echo $HOME
-  611  id
-  612  mkdir temp
-  613  chmod -x temp
-  614  cd temp
+  592  mkdir ws3
+  593  ls
+  594  clear 
+  595  ls
+  596  cd ..
+  597  ls
+  598  cd taxidata
+  599  ls
+  600  cd cs13`1
+  601  cd cs131
+  602  l
+  603  ls
+  604  cd ws2
+  605  ls
+  606  vim cmds.log
+  607  ls
+  608  cd ..
+  609  ls
+  610  cd ..
+  611  ls
+  612  cd ..
+  613  ls
+  614  pwd
   615  ls
-  616  ls -l 
-  617  touch test.txt
-  618  mkdir temp2
-  619  mv temp2 temp3
-  620  cp -r temp3 temp4
-  621  ls /proc/ | grep mem
-  622  ls /proc/ | grep cpu
-  623  head /proc/meminfo
-  624  head /proc/cpuinfo
-  625  tail /proc/cpuinfo
-  626  grep "cpu MHz" /proc/cpuinfo
-  627  cat /etc/os-release
-  628  ls -l /etc/os-release
-  629  vi a1.txt
-  630  git init
-  631  git add .
-  632  git commit -m "Initial commit"
-  633  git clone https://github.com/chsaad98/cs131.git
-  634  git push
-  635  git push origin main
-  636  git init
-  637  git branch -M main
-  638  git remote add origin  https://github.com/chsaad98/cs131.git
-  639  git status
-  640  git add .
-  641  git commit -m "Initial commit"
-  642  git push 
-  643  git push origin main
-  644  git init
-  645  git add .
-  646  git commit -m "Initial commit"
-  647  git remote add origin https://github.com/chsaad98/cs131.git
-  648  git add cmds.log a1.txt
-  649  git push origin main
-  650  git add cmds.log a1.txt
-  651  ls
-  652  vi a1.txt
-  653  cd ..
-  654  mv cmds.log a1
-  655  cd a1
+  616  cd cmds.log
+  617  vim cmds.log
+  618  clear 
+  619  ls
+  620  clear
+  621  cd taxidata
+  622  ls
+  623  cd ..
+  624  ls
+  625  clear
+  626  ls
+  627  cd taxidata
+  628  ls
+  629  cd ..
+  630  clear
+  631  mkdir saad
+  632  touch file
+  633  ls
+  634  cd saad
+  635  ls
+  636  rm - r file
+  637  cd ..
+  638  rm -r file
+  639  clear
+  640  ls
+  641  cd saad
+  642  touch file
+  643  ls
+  644  cd ..
+  645  touch file2
+  646  ls
+  647  cd saad
+  648  ls
+  649  clear
+  650  ls
+  651  vi file
+  652  grep "saad" file
+  653  vim file
+  654  cd ..
+  655  clear
   656  ls
-  657  git add cmds.log a1.txt
-  658  vi cmds.log
-  659  cd 0911
-  660  touch cat
-  661  find ./ -type f -empty
-  662  touch dog
-  663  find ./ -type f -empty | xargs
-  664  ls
-  665  find ./ -type f -empty rm -rf
-  666  clear
-  667  cd ..
-  668  ls
-  669  ls a1
-  670  cd a1
+  657  touch mac
+  658  vi mac
+  659  grep "paki" mac
+  660  grep "aus" mac
+  661  cd saad
+  662  cp /datasets/taxidata.tar.gz .
+  663  ls
+  664  tar zxvf taxidata.tar.gz
+  665  ls -1
+  666  ls -l
+  667  vi 2019-03.csv
+  668  vim 2019-03.csv
+  669  cd 2019-03.csv
+  670  grep "2019-03-12" 2019-03.csv
   671  ls
-  672  cd ..
-  673  rm temp
-  674  clear
-  675  ls
-  676  rm -r a1
-  677  ls
-  678  cd 0911
-  679  ls
-  680  vi a1.txt
-  681  cd a1
-  682  vi a1.txt
-  683  vim a1.txt
-  684  cd ..
-  685  ls
-  686  cd a1
-  687  ls
-  688  ls cs131
-  689  ls
-  690  rm -rf cs131
+  672  cd taxidata
+  673  ls
+  674  vi 2019-03.csv
+  675  vi 2019-12.csv
+  676  vi 2019-03.csv
+  677  vi 2019-12.csv
+  678  grep "2019-03-12" 2019-03.csv
+  679  :q
+  680  tail -20 > results.txt
+  681  tail -n 20 >results.txt
+  682  tail -n 20 > resuslts.txt
+  683  clear
+  684  ls
+  685  tail -n 20 > results.txt
+  686  grep "2019-03-12" 2019-03.csv
+  687  tail -n 20 > results.txt
+  688  tail -20 wqe.txt
+  689  touch mano
+  690  tail -20 mano
   691  ls
-  692  cd ..
+  692  vi mano
   693  ls
-  694  mv a1 cs131/
-  695  ls
-  696  cd cs131
-  697  ls
-  698  cd a1/
-  699  ls
-  700  vi a1.txt
-  701  vim ai.txt
-  702  vi a1.txt
-  703  cd ..
-  704  git add a1
-  705  git commit -m "a1 txtfile"
-  706  git push origin main
+  694  tail -n 20 > mano
+  695  clear
+  696  ls
+  697  vi mano
+  698  rm -r mano
+  699  vi resuslts.txt
+  700  rm -r resuslts.txt
+  701  vi results.txt
+  702  ls
+  703  vi results.txt
+  704  rm -r results.txt
+  705  ls
+  706  cd ..
   707  ls
-  708  cp /datasets/taxidata.tar.gz .
-  709  ls
-  710  cd 09``
-  711  0911
-  712  cd 0911 
+  708  rmdir taxidata
+  709  cd ..
+  710  ls
+  711  vi mac
+  712  sort mac
   713  ls
-  714  clear
-  715  cd ..
-  716  ls
-  717  cd taxidata
-  718  ls
-  719  less 2019-11.csv
-  720  ls
-  721  cd cs131
-  722  ls
-  723  cd taxidata
-  724  cd ..
-  725  cd taxidata
+  714  vi mac
+  715  sort mac
+  716  sudo sort mac
+  717  ls
+  718  ps aux
+  719  :q
+  720  ps
+  721  clear
+  722  nano ~/.bashrc
+  723  ls
+  724  cs131
+  725  cd cs131 
   726  ls
-  727  cd 0911
-  728  cd ..
-  729  cd 0911
-  730  ls
-  731  cd hellovim.txt
-  732  cd ..
-  733  cd hellovim.txt
-  734  ls
-  735  cd ..
-  736  clear
-  737  cd taxidata
-  738  ls
-  739  cd cs131
-  740  ls
-  741  mv cmds -/
-  742  mv cmds.log -/
-  743  mv cmds ../
-  744  mv cmds.log ../
-  745  ls
-  746  cd ..
-  747  ls
-  748  cd taxidata
+  727  cd ..
+  728  clear 
+  729  nano ~/.bashrc
+  730  w
+  731  l
+  732  1
+  733  clear
+  734  w
+  735  l
+  736  nano ~/.bashrc
+  737  clear
+  738  aw
+  739  lw
+  740  l and w
+  741  w
+  742  clear
+  743  nano ~/.bashrc
+  744  alias l="ls -ltr"
+  745  clear
+  746  nano ~/.bashrc
+  747  alias l="ls -ltr"
+  748  alias w="ls -l | wc -l"
   749  ls
-  750  mv cmds ../
-  751  mv cmds.log ../
-  752  ls
-  753  clear
-  754  ls
-  755  cd ws2
-  756  ls
-  757  cd ..
-  758  mv ws2 ../
+  750  clear
+  751  ls
+  752  nano ~/.bashrc
+  753  alias l="ls -ltr"
+  754  clear
+  755  nano ~/.bashrc
+  756  l
+  757  w
+  758  clear
   759  ls
-  760  cd ..
-  761  ls
-  762  cd taxidata
-  763  cd cs131
+  760  mkdir ~/ws4/FARE
+  761  clear
+  762  l
+  763  clear
   764  ls
-  765  cd ws2
-  766  ls
-  767  cd ..
-  768  mv cs131 ../
-  769  clear
+  765  l
+  766  w
+  767  clear
+  768  ls
+  769  cd taxidata
   770  ls
-  771  cs131
-  772  cd cs131
+  771  cd ..
+  772  clear
   773  ls
-  774  vim ws2
-  775  cd ws2
-  776  ls
-  777  vim cmds.lof
-  778  vim results.txt
-  779  cd ..
-  780  cd ws1
+  774  cp /datasets/taxidata.tar.gz .
+  775  ls
+  776  clear
+  777  ls
+  778  cd taxidata
+  779  ls
+  780  mkdir ws4
   781  ls
-  782  vim cmds.log
-  783  cd ..
-  784  ls
-  785  mv ws1 ../
-  786  ls
-  787  cd ..
+  782  mkdir FARE
+  783  ls
+  784  rmdir FARE
+  785  ls
+  786  cd ws4
+  787  mkdir FARE
   788  ls
-  789  mv ws1 ../
-  790  ls
-  791  cd ..
-  792  clear 
-  793  ls 
-  794  cd ws1 
-  795  ls
-  796  vim cmds.log
-  797  cd ..
-  798  cd ws2 
-  799  ls 
-  800  vim cmds.log
-  801  vim results.txt
-  802  cd ..
+  789  clear
+  790  cp /datasets/taxidata.tar.gz .
+  791  tar -zxvf taxidata.tar.gz
+  792  vi 2019-06.csv
+  793  cd ..
+  794  vi 2019-06.csv
+  795  cd ws4
+  796  ls
+  797  cd datset
+  798  cd taxidata
+  799  ls
+  800  vi 2019-06.csv
+  801  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  802  awk -F, '$8 == 50.0 && $9 == 162.0 { print $12 }' 2019-06.csv > ws4/FARE/50.0-162.0.txt
   803  ls
-  804  mv ws1 ws2 cs131
-  805  mv ws1 cs131
-  806  mv ws1 cs131/
-  807  clear 
-  808  cd cs131 
-  809  ls
-  810  cd ws1
-  811  ls
-  812  vim cmds.log
-  813  cd ..
-  814  cd ws2 
-  815  ls
-  816  vim cmds.log
-  817  cd ws3.txt
-  818  cd ..
-  819  cd ws3.txt
+  804  cat ws4/FARE/48.0-161.0.txt | paste -sd+ - | bc -lq | awk '{ print $0 }' > ws4.txt
+  805  cat ws4/FARE/50.0-162.0.txt | paste -sd+ - | bc -lq | awk '{ print $0 }' >> ws4.txt
+  806  ls
+  807  vi ws4.txt
+  808  history > cmds.log
+  809  git add ws4/FARE/48.0-161.0.txt
+  810  git add ws4/FARE/50.0-162.0.txt
+  811  git add ws4.txt
+  812  git add cmds.log
+  813  git commit -m "Add calculation files"
+  814  ls
+  815  vi cmds.log
+  816  git push origin main
+  817  ls
+  818  vi ws4.txt
+  819  cd ws4
   820  ls
-  821  cd ws3.txt
-  822  vim ws3.txt
-  823  cd ..
-  824  ls
-  825  cd taxidata
-  826  ls
-  827  cd cs131
-  828  ls
-  829  cd ws2
-  830  ls
-  831  vim cmds.log
-  832  vim results.txt
-  833  cd ..
-  834  clear
+  821  cd ..
+  822  cd FARE
+  823  vi FARE
+  824  cd FARE
+  825  mv ws4 ../
+  826  mv ws4.txt ../
+  827  mv cmds ../
+  828  mv cmds.log ../
+  829  cd ..
+  830  clear
+  831  ls
+  832  cd ws4.txt
+  833  vi ws4.txt
+  834  cd ws4
   835  ls
-  836  cd ..
-  837  ls 
-  838  vim cmds.log
-  839  cd cs131
-  840  ls
-  841  vim ws3.txt
-  842  cd ..
-  843  ls
-  844  cd cs131
+  836  :q
+  837  cd ..
+  838  ls
+  839  vi cmds.log
+  840  clear
+  841  ls
+  842  mv ws4.txt cs131
+  843  mv ws4 cs131
+  844  mv cmds.log cs131
   845  ls
-  846  mkdir ws3
+  846  cd cs131
   847  ls
-  848  clear 
-  849  ls
-  850  cd ..
-  851  ls
-  852  cd taxidata
-  853  ls
-  854  cd cs13`1
-  855  cd cs131
-  856  l
-  857  ls
-  858  cd ws2
-  859  ls
-  860  vim cmds.log
+  848  nano ~/.bashrc
+  849  clear
+  850  ls
+  851  git add push origin
+  852  git add ws4/FARE/48.0-161.0.txt
+  853  git add ws4/FARE/50.0-162.0.txt
+  854  git add ws4.txt
+  855  git add cmds.log
+  856  git commit -m "Add calculation and fare" 
+  857  git push origin main
+  858  ls
+  859  cd taxidata
+  860  cd ..
   861  ls
-  862  cd ..
+  862  cd cs131
   863  ls
-  864  cd ..
-  865  ls
-  866  cd ..
-  867  ls
-  868  pwd
-  869  ls
-  870  cd cmds.log
-  871  vim cmds.log
-  872  clear 
-  873  ls
-  874  clear
-  875  cd taxidata
-  876  ls
+  864  vi cmds.log
+  865  vim.bashrc
+  866  vim .bashrc
+  867  vim .bash_profile
+  868  clear
+  869  cd taxidata
+  870  mkdir 0920
+  871  mkdir FARE
+  872  rmdir FARE
+  873  cd 0920
+  874  mkdir FARE
+  875  ls
+  876  grep -E "^([^,]*,){7}48.0.161.0 " ../ taxidata/2019-06.csv
   877  cd ..
-  878  ls
+  878  grep -E "^([^,]*,){7}48.0.161.0 " ../ taxidata/2019-06.csv
   879  clear
-  880  ls
-  881  cd taxidata
+  880  vim .sh
+  881  sh .sh
   882  ls
-  883  cd ..
-  884  clear
-  885  mkdir saad
-  886  touch file
-  887  ls
-  888  cd saad
-  889  ls
-  890  rm - r file
-  891  cd ..
-  892  rm -r file
-  893  clear
+  883  cd mac 
+  884  mkdir mac
+  885  mkdir macs
+  886  ls
+  887  cd macs
+  888  cd ..
+  889  clear
+  890  ps
+  891  ps -eo pid,ppid,ni,comm
+  892  vi mac 
+  893  cut -d -f1-3 mac
   894  ls
-  895  cd saad
-  896  touch file
-  897  ls
-  898  cd ..
-  899  touch file2
-  900  ls
-  901  cd saad
-  902  ls
-  903  clear
-  904  ls
-  905  vi file
-  906  grep "saad" file
-  907  vim file
-  908  cd ..
-  909  clear
+  895  s
+  896  mkdir gitpractice
+  897  cd gitpractice
+  898  ls
+  899  git init
+  900  cd gitpractice
+  901  vi hello.txt
+  902  git add hello.txt
+  903  cat hello.txt
+  904  vi mac
+  905  cut -d, -f1-3, mac
+  906  cut -d, -f1, mac
+  907  cut -d, -f1-3 filename
+  908  ls
+  909  vi mac
   910  ls
-  911  touch mac
-  912  vi mac
-  913  grep "paki" mac
-  914  grep "aus" mac
-  915  cd saad
-  916  cp /datasets/taxidata.tar.gz .
-  917  ls
-  918  tar zxvf taxidata.tar.gz
-  919  ls -1
-  920  ls -l
-  921  vi 2019-03.csv
-  922  vim 2019-03.csv
-  923  cd 2019-03.csv
-  924  grep "2019-03-12" 2019-03.csv
-  925  ls
-  926  cd taxidata
-  927  ls
-  928  vi 2019-03.csv
-  929  vi 2019-12.csv
-  930  vi 2019-03.csv
-  931  vi 2019-12.csv
-  932  grep "2019-03-12" 2019-03.csv
-  933  :q
-  934  tail -20 > results.txt
-  935  tail -n 20 >results.txt
-  936  tail -n 20 > resuslts.txt
-  937  clear
-  938  ls
-  939  tail -n 20 > results.txt
-  940  grep "2019-03-12" 2019-03.csv
-  941  tail -n 20 > results.txt
-  942  tail -20 wqe.txt
-  943  touch mano
-  944  tail -20 mano
-  945  ls
-  946  vi mano
-  947  ls
-  948  tail -n 20 > mano
-  949  clear
-  950  ls
-  951  vi mano
-  952  rm -r mano
-  953  vi resuslts.txt
-  954  rm -r resuslts.txt
-  955  vi results.txt
-  956  ls
-  957  vi results.txt
-  958  rm -r results.txt
-  959  ls
-  960  cd ..
-  961  ls
-  962  rmdir taxidata
-  963  cd ..
-  964  ls
-  965  vi mac
-  966  sort mac
-  967  ls
-  968  vi mac
-  969  sort mac
-  970  sudo sort mac 
-  983  nano ~/.bashrc
-  984  w
-  985  l
-  986  1
-  987  clear
-  988  w
-  989  l
-  990  nano ~/.bashrc
-  991  clear
-  992  aw
-  993  lw
-  994  l and w
-  995  w
-  997  nano ~/.bashrc
-  998  alias l="ls -ltr"
- 1000  nano ~/.bashrc
- 1001  cd datset
- 1002  cd taxidata
- 1003  ls
- 1004  vi 2019-06.csv
- 1005  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
- 1006  awk -F, '$8 == 50.0 && $9 == 162.0 { print $12 }' 2019-06.csv > ws4/FARE/50.0-162.0.txt
- 1007  ls
- 1008  cat ws4/FARE/48.0-161.0.txt | paste -sd+ - | bc -lq | awk '{ print $0 }' > ws4.txt
- 1009  cat ws4/FARE/50.0-162.0.txt | paste -sd+ - | bc -lq | awk '{ print $0 }' >> ws4.txt
- 1010  ls
- 1011  vi ws4.txt
- 1012  history > cmds.log
+  911  cut -d, f2 mac
+  912  cut -d, -f 2 mac
+  913  vi mac
+  914  cut -d, -f 1-3 mac
+  915  cut -d, -f 1-3, mac
+  916  cut -d, -f1-3 mac
+  917  cut -d, -f1-3, mac
+  918  clear
+  919  vi mac
+  920  ls
+  921  cut -d, -f1-3 mac
+  922  cut -2, -f1-3,6 mac
+  923  cut -d',' -f1-3 mac
+  924  ls
+  925  vi mac
+  926  cut -d',' -f1-3 mac
+  927  cut -d',' -f 3, mac
+  928  cut -d, -f3,mac
+  929  cut -d',' -f1-3 < mac
+  930  vi mac
+  931  awk '{print $2}' mac 
+  932  cd thanks
+  933  ls
+  934  head -5 mac |cut -d, -f1-2, mac
+  935  head -5 mac
+  936  head -5 mac| awk '{print $1}' mac
+  937  head -5 mac| awk '{print $1}'
+  938  head -5 | awk '{print $1}' mac
+  939  cut -d, -f1-3
+ 1000  ls
+ 1001  cd taxidata
+ 1002  ls
+ 1003  grep '2019-05-11' 2019-05.csv | awk -F ',' '{ sum += $17 } END { print sum / NR }'
+ 1004  [fnus23fa@sjsu taxidata]$ grep '2019-05-11' 2019-05.csv | awk -F ',' '{print $17}' |sort -n | tail -n 1
+ 1005  clear
+ 1006  grep '2019-05-11' 2019-05.csv | awk -F ',' '{ sum += $17 } END { print sum / NR }'
+ 1007   grep '2019-05-11' 2019-05.csv | awk -F ',' '{print $17}' |sort -n | tail -n 1
+ 1008  grep '2019-05-20' 2019-05.csv| awk -F ',' '{print $8 "," $9}' | sort | uniq -c | sort -nr | head -n 1
+ 1009  grep '2019-05-' 2019-05.csv | awk -F ',' '$4 >= 3 {print $9}' | sort | uniq -c | sort -nr | head -n 10 
+ 1010  view 2019-05.csv
+ 1011  # Using awk to determine the busiest pickup location throughout the year 2019
+ 1012  awk -F',' '$2 ~ /2019/ { pickup[$8]++ } END { for (loc in pickup) print loc, pickup[loc] | "sort -t, -k2 -nr | head -1" }' 2019-05.csv
+ 1013  history > cmds.log
