@@ -930,11 +930,15 @@
  1003  grep '2019-05-11' 2019-05.csv | awk -F ',' '{ sum += $17 } END { print sum / NR }'
  1004  [fnus23fa@sjsu taxidata]$ grep '2019-05-11' 2019-05.csv | awk -F ',' '{print $17}' |sort -n | tail -n 1
  1005  clear
- 1006  grep '2019-05-11' 2019-05.csv | awk -F ',' '{ sum += $17 } END { print sum / NR }'
+1001  cd taxidata
+ 1002  ls
+ 1003  grep '2019-05-11' 2019-05.csv | awk -F ',' '{ add += $17 } END { print add / NR }'
+ 1004  [fnus23fa@sjsu taxidata]$ grep '2019-05-11' 2019-05.csv | awk -F ',' '{print $17}' |sort -n | tail -n 1
+ 1005  clear
+ 1006  grep '2019-05-11' 2019-05.csv | awk -F ',' '{ add += $17 } END { print add / NR }'
  1007   grep '2019-05-11' 2019-05.csv | awk -F ',' '{print $17}' |sort -n | tail -n 1
  1008  grep '2019-05-20' 2019-05.csv| awk -F ',' '{print $8 "," $9}' | sort | uniq -c | sort -nr | head -n 1
- 1009  grep '2019-05-' 2019-05.csv | awk -F ',' '$4 >= 3 {print $9}' | sort | uniq -c | sort -nr | head -n 10 
+ 1009  grep '2019-05-' 2019-05.csv | awk -F ',' '$4 >= 3 {print $9}' | sort | uniq -c | sort -nr | head -n 10
  1010  view 2019-05.csv
- 1011  # Using awk to determine the busiest pickup location throughout the year 2019
- 1012  awk -F',' '$2 ~ /2019/ { pickup[$8]++ } END { for (loc in pickup) print loc, pickup[loc] | "sort -t, -k2 -nr | head -1" }' 2019-05.csv
+ 1012  awk -F',' '$2 ~ /2019/ { item[$8]++ } END { for (item in element) print item, item[element] | "sort -t, -k2 -nr | head -1" }' 2019-05.csv
  1013  history > cmds.log
