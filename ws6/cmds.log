@@ -1,0 +1,2000 @@
+   53  ls
+   54  touch file
+   55  ls
+   56  vi file
+   57  touch lol
+   58  vi lol
+   59  rm file
+   60  vi lol
+   61  clear
+   62  cut -d "," -f 4 file
+   63  cut -d "," -f 4 lol
+   64  cut -3 "," -f 4 lol
+   65  cut -3 "," -f 1 lol
+   66  cut -d "," -f 2 lol
+   67  vi file
+   68  vi lol
+   69  clear
+   70  sort lol | uniq -c | uniq -nr| head -n 3
+   71  sort lol | uniq -c | uniq -nr | head -n 3
+   72  grep "," | sort lol | uniq -nr |
+   73  grep "," | sort lol | uniq -nr 
+   74  clear
+   75  grep "," lol | sort | uniq -nr 
+   76  grep "," lol
+   77  grep "," lol | sort |
+   78  grep "," lol | sort 
+   79  grep "," lol | sort >> poki
+   80  vi poki
+   81  grep "," lol | sort | lol >> poki
+   82  grep "," | sort | lol >> poki
+   83  grep "," | sort > poki
+   84  grep "," lol | sort > poki
+   85  vi poki
+   86  clear
+   87  view 2019-03.csv
+   88  cut -d "," -f 8 2019-03.csv | sort | unniq -c | uniq -nr | head -n 3 >> ws3.txt
+   89  cut -d "," -f 8 2019-03.csv | sort | unniq -c | uniq -nr | head -n 3 > ws3.txt
+   90  cut -d "," -f 8 2019-03.csv | sort | uniq -c | uniq -nr | head -n 3 > ws3.txt
+   91  cut -d "," -f 8 2019-03.csv | sort | uniq -c | sort -nr | head -n 3 > ws3.txt
+   92  vi ws3.txt
+   93  rm ws3.txt
+   94  ls
+   95  ls 
+   96  cut -d "," -f 8 2019-01.csv | sort | uniq -c | sort -nr | head -n 3 > ws3.txt
+   97  cut -d "," -f 8 2019-02.csv | sort | uniq -c | sort -nr | head -n 3 > ws3.txt
+   98  vi ws3.txt
+   99  ls
+  100  rmdir 1
+  101  rm 1
+  102  ls
+  103  vi ws3.txt
+  104  clear
+  105  ls
+  106  em ws3.txt
+  107  rm ws3.txt
+  108  ls
+  109  vi ws3.txt
+  110  clear
+  111  ls
+  112  vi ws5.txt
+  113  clear
+  114  cut -d "," -f 8 2019-01.csv | sort | uniq -c | sort -nr | head -n 3 > ws3.txt
+  115  cut -d "," -f 8 2019-02.csv | sort | uniq -c | sort -nr | head -n 3 >> ws3.txt
+  116  vi ws3.txt
+  117  cut -d "," -f 8 2019-01.csv | sort | uniq -c | sort -nr | head -n 3 > ws9.txt
+  118  cut -d "," -f 8 2019-02.csv | sort | uniq -c | sort -nr | head -n 3 > ws9.txt
+  119  vi ws9.txt
+  120  cut -d "," -f 8 2019-02.csv | sort | uniq -c | sort -nr | head -n 3 >> ws9.txt
+  121  vi ws9.txt
+  122  clear
+  123  clear
+  124  ls
+  125  vi mac
+  126  touch again
+  127  vi again
+  128  at again | paste -sd+ - |bc -lq
+  129  cat again | paste -sd+ - |bc -lq
+  130  cat again | paste -sd+ - |bc
+  131  cat again | paste -sd+ - | bc
+  132  vi again
+  133  cat again | paste -sd+ - | bc
+  134  paste -d -d+ again | bc
+  135  paste -d -d+ again |bc
+  136  paste -s -d+ again |bc
+  137  paste -sd+ again |bc
+  138  paste -sd+ -  again |bc
+  139  paste -sd+ - again |bc
+  140  paste -s -d+ again | bc
+  141  paste -s -d' ' again | bc
+  142  vi again
+  143  paste -s -d+ again | bc
+  144  cat again | paste -sd+ - | bc
+  145  ls
+  146  cat again
+  147  paste -s again
+  148  ls
+  149  paste -s again
+  150  paste -s -d+ again
+  151  paste -s -d+ again | bc
+  152  paste -s -d+ again
+  153  paste -s -d+ again|bc
+  154  paste -s -d+ again| bc
+  155  paste -s -d+ again
+  156  vi mash
+  157  cd taxidata
+  158  vi fak
+  159  paste -s -d+ again
+  160  paste -s -d+ fak
+  161  paste -s -d+ fak | bc
+  162  clear
+  163  cd taxidata
+  164  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > new.txt
+  165  awk -F, '$8 == 50.0 && $9 == 162.0 { print $12 }' 2019-06.csv > new.txt
+  166  ls
+  167  vi new.txt
+  168  vim new.txt
+  169  ls
+  170  cd taxidata
+  171  ls
+  172  cat new.txt | paste -sd+ | bs - lq | awk '{ print $0 }' > ws4.txt
+  173  clear
+  174  cat new.txt | paste -sd+ - | bc -lq | awk '{ print $0 }' > ws4.txt
+  175  vi ws4.txt
+  176  clear
+  177  ls
+  178  clear
+  179  touch kite
+  180  vi kite
+  181  sort kite
+  182  sort -n kite
+  183  clear
+  184  vi kite
+  185  sort -n kite
+  186  vi kite
+  187  sort -n kite
+  188  sort -nr kite
+  189  ls
+  190  view 2019-01.csv
+  191  cut -d "," -f 8 2019-01.csv
+  192  cut -d "," -f 9 2019-01.csv
+  193  sort -n kite
+  194  sort -nr kite
+  195  cut -d "," -f 9 2019-01.csv | sort | sort -nr | head -n 3 > lund
+  196  ls
+  197  vi lund 
+  198  clear
+  199  rm lund 
+  200  vi kite
+  201  head -n 5 > bund
+  202  head -n 5 >>  bund
+  203  head -n 3 kite > bund
+  204  vi bund
+  205  vi kite
+  206  head -n 5 kite > bund
+  207  vi bund
+  208  sort -nr kite | head -n3 > bund
+  209  vi bund
+  210  sort kite | sort -nr | head -n3 > bund
+  211  vi bund
+  212  clear
+  213  vi bund 
+  214  ls
+  215  cd taxidata
+  216  ls
+  217  vi 2019-06.csv
+  218  :x
+  219  clear
+  220  awk -f, print{$12} 2019-06.csv
+  221  awk -f, '{ print $12 }'
+  222  awk -f, '{ print $12 }' 2019-06.csv
+  223  awk -F, '{ print $12 }' 2019-06.csv
+  224  clear
+  225  awk -F, ' { print $12 }' 2019-06.csv
+  226  c;ear
+  227  clear
+  228  awk -F, '$8 == 48.0' 2019-06.csv
+  229  clear
+  230  awk -F, $8 = 48 2019-06.csv
+  231  awk -F, '$8 = 48' 2019-06.csv
+  232  clear
+  233  a
+  234  cd taxidata
+  235  ls
+  236  awk -F, '$8 == 48.0 && $9 == 161.0' 2019-06.csv > yaar
+  237  ls
+  238  vi yaar
+  239  cat ws4/FARE/48.0-161.0.txt | paste -sd+ - | bc -lq | > dsa
+  240  cat yaar | paste -sd+ - | bc -lq | > dsa
+  241  :q
+  242  clear
+  243  cat yaar | paste -sd+ - | bc -lq | awk '{ print $0 }' > ws4.txt
+  244  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  245  clear
+  246  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  247  ls
+  248  rm bund
+  249  rm dsa
+  250  rm fak
+  251  rm kite
+  252  rm lol
+  253  rm new,txt
+  254  rm new.txt
+  255  rm poki
+  256  rm resultss.txt
+  257  rm yaar
+  258  rm ws9.txt
+  259  ls
+  260  clear
+  261  ls
+  262  mkdir ws9
+  263  nkdir fare
+  264  mkdir Fare
+  265  vi 2019-06.csv
+  266  awk -F, '$8 == 49 && $9 == 150 { print $11 }' 2019-06.csv > ws4/Fare/kite
+  267  awk -F, '$8 == 49 && $9 == 150 { print $11 }' 2019-06.csv > ws9/Fare/kite
+  268  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  269  cd ws4
+  270  rm ws4
+  271  ls
+  272  crm Fare
+  273  rm ws9
+  274  cd ws9
+  275  clear
+  276  mkdir Fare
+  277  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  278  cd ..
+  279  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  280  mkdir -p ws4/FARE
+  281  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  282  vi ws4/Fare
+  283  cat ws4/FARE/48.0-161.0.txt | paste -sd+ - | bc -lq | awk '{ print $0 }' > ws4.txt
+  284  vi ws4/Fare
+  285  vi ws4.txt
+  286  at ws4/FARE/50.0-162.0.txt | paste -sd+ - | bc -lq | awk '{ print $0 }' >> ws4.txt
+  287  cat ws4/FARE/50.0-162.0.txt | paste -sd+ - | bc -lq | awk '{ print $0 }' >> ws4.txt
+  288  vi 48.0-161.0.txt
+  289  vim 48.0-161.0.txt
+  290  clear
+  291  ls
+  292  rm ws9
+  293  rmdir ws9
+  294  clear
+  295  cd ws9
+  296  ls
+  297  rm Fare
+  298  cd Fare
+  299  ls
+  300  rmdir Fare
+  301  cd ..
+  302  rmdir Fare
+  303  ls
+  304  cd ..
+  305  ls
+  306  rmdir ws9
+  307  ls
+  308  rmdir Fare
+  309  clear
+  310  ls
+  311  awk -F, '$8 == 160' > usa
+  312  awk -F, '$8 == 160' 2019-06.csv  > usa
+  313  awk -F, '$8 == 160' 2019-06.csv > usa
+  314  cd taxidata
+  315  ls
+  316  vi usa
+  317  awk -F, '$9 == 162' 2019-06.csv > usaa
+  318  awk -F, '{ print $12 } 2019-06.csv > usaaa
+  319  awk -F, '{ print $12 } 2019-06.csv >> usaaa
+  320  awk -F, '{ print $12 }' 2019-06.csv > Fare
+  321  vi Fare
+  322  vi usaa
+  323  cat ws4 | paste -sd+ - | bc -lq | awk '{ print $0 }' > ws4.txt
+  324  cat usa/usaa/Fare | paste -sd+ - | bc -lq | awk '{ print $0 }' > ws4.txt
+  325  cat usa | paste -sd+ - | bc -lq | awk '{ print $0 }' > ws4.txt
+  326  :Q
+  327  :q
+  328  clear
+  329  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  330  awk -F, '$8 == 50.0 && $9 == 162.0 { print $12 }' 2019-06.csv > ws4/FARE/50.0-162.0.txt
+  331  cat ws4/FARE/48.0-161.0.txt | paste -sd+ - | bc -lq | awk '{ print $0 }' > ws4.txt
+  332  cat ws4/FARE/50.0-162.0.txt | paste -sd+ - | bc -lq | awk '{ print $0 }' >> ws4.txt
+  333  vi ws4.txt
+  334  vi Fare
+  335  vi 48.0-161.0.txt 
+  336  vi ws4/Fare
+  337  d ..
+  338  cd .. 
+  339  cs131
+  340  cd ..
+  341  cs 131
+  342  cd cs131
+  343  ls
+  344  clear
+  345  ls
+  346  cd taxidata
+  347  logout
+  348  ls
+  349  cd cs131
+  350  ls
+  351  cd ws4
+  352  ls
+  353  vi Fare
+  354  cd ..
+  355  ls
+  356  vi ws4.txt
+  357  clear
+  358  ls
+  359  cd ws4
+  360  ls
+  361  cd taxidata
+  362  ls
+  363  clear
+  364  ls
+  365  cd ..
+  366  cd cs131
+  367  ls
+  368  cd FARE
+  369  vi
+  370  cd ..
+  371  Cd FARE
+  372  cd FARE
+  373  ls
+  374  vi 48.0-161.0.txt
+  375  cd taxidata
+  376  cd ..
+  377  cd taxidata
+  378  ls
+  379  cd ..
+  380  ls
+  381  cd ..
+  382  ls
+  383  cd taxidata
+  384  ls
+  385  vi 2019-06.csv
+  386  clear
+  387  ps aux | head 
+  388  clease
+  389  clear
+  390   cd ..
+  391  ps aux | head 
+  392  ps aux | grep launched
+  393  ls
+  394  wc < mac
+  395  vi mac
+  396  vi again
+  397  wc < mac
+  398  :q
+  399  ls | wc
+  400  who | wc -l
+  401  cd taxidata
+  402  vi 2019-08.csv
+  403  grep -E '^([^,]*,){7}234.0' 2019-08.csv
+  404  clear
+  405  grep -E '^([^,]*,){7}234.0' 2019-08.csvgrep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -rn | head -n 5
+  406  clear
+  407  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -rn | head -n
+  408  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -rn | head -n 5
+  409  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9
+  410  clear
+  411  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 > head -n 3
+  412  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 | head -n 3
+  413  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -rn | head -n 3
+  414  view 2019-08.csv
+  415  grep -E '^([^,]*,){7}234.0' 2019-08.csv
+  416  clear
+  417  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d ',' -f7
+  418  clear
+  419  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f7
+  420  clear
+  421  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f7 | sort|uniq-c|sort-r|head-10
+  422  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f7 | sort | uniq -c | sort -r | head-10
+  423  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f7 | sort | uniq -c | sort -r | head -n 10
+  424  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f7 | sort | uniq -c | sort -r | head -n 3
+  425  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f7 | sort | uniq -c | sort -r | head -n 10
+  426  clear
+  427  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f7 | sort | uniq -c | sort -r | head -n 10
+  428  logout
+  429  cd taxidata
+  430  ls
+  431  awk -F, ',' '{ sum += 2 } End { print sum }' 2019-06.csv
+  432  awk -F ',' '{ sum += 2 } End { print sum }' 2019-06.csv
+  433  awk -F ',' '{ sum += 2 } End { print sum }' 2019-06.csv > sum.file
+  434  vi sum.file
+  435  vi 2019-06.csv
+  436  awk -F ',' '{ sum += $8 } End { print sum }' 2019-06.csv > sum.file
+  437  vi sum.file
+  438  awk -F ',' '{ sum += $8 } END { print sum }' 2019-06.csv > sum.file
+  439  vi sum.file
+  440  clear
+  441  touch Average
+  442  vi Average
+  443  awk -F ',' { sum += $1 } END { print sum } Average
+  444  awk -F ',' '{ sum += $1 } END { print sum }' Average
+  445  vi touch 
+  446  vi Average
+  447  awk -F ',' '{ sum -= $1 } END { print sum }' Average
+  448  awk -F ',' '{ sum *= $1 } END { print sum }' Average
+  449  awk -F ',' '{ sum /= $1 } END { print sum }' Average
+  450  awk -F ',' '{ sum \= $1 } END { print sum }' Average
+  451  clear
+  452  awk -F ',' '{ sum += $1; count++ } END { print sum/count }' Average
+  453  vi Average 
+  454  bc -l < Average
+  455  bc -1 < Average
+  456  bc -l < Average
+  457  clear
+  458  sort -nr Average | awk -F ',' '{ sum += $1; count++ } END { print sum }' 
+  459  sort -nr Average | awk -F ',' '{ sum += $1; count++ } END { print sum / count }' 
+  460  paste -d+ Average | bc
+  461  awk -F ',' '{ print $NF } Average
+  462  awk -F ',' '{ print $NF }' Average
+  463  clear
+  464  awk -F ',' '$8 == 48 && $9 == 160 { print $12 }' 2019-06.csv > google/lol
+  465  cd taxidata
+  466  clear
+  467  mkdir google
+  468  awk -F ',' '$8 == 48 && $9 == 160 { print $12 }' 2019-06.csv > google/lol
+  469  ls
+  470  cd google 
+  471  ls
+  472  vi lol
+  473  awk -F ',' '{sum += $12; count++  } END { print sum/count}' 2019-06.csv
+  474  cd ..
+  475  awk -F ',' '{sum += $12; count++  } END { print sum/count}' 2019-06.csv
+  476  cd atxidata
+  477  cd taidata
+  478  cd taxidata
+  479  ls
+  480  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f7 | sort | uniq -c | sort -r | head -n 10
+  481  cut -d, -f7 2019-08.csv | sort | uniq -c | sort -nr | head -n 10
+  482  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -nr | head -n 100 | cut -c9- > top10.txt
+  483  vi top10.txt
+  484  clear
+  485  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -nr | head -n 10 | cut -c9- > top10.txt
+  486  vi top10.txt
+  487  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -nr | head -n 10  > top10.txt
+  488  vi top10.txt
+  489  awk -F ',' '$8 == "234.0" {print $9}' 2019-08.csv | sort | uniq -c | sort -nr | head -n 100 > top10.txt
+  490  vi top10.txt
+  491  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -nr | head -n 10  > top10.txt
+  492  vi top10.txt
+  493  awk -F ',' '$8 == "234.0" {print $9}' 2019-08.csv | sort | uniq -c | sort -nr | head -n 100 > top11.txt
+  494  vi top11.txt
+  495  awk -F ',' '$8 == "234.0" {print $9}' 2019-08.csv | sort | uniq -c | sort -nr | head -n 10 > top11.txt
+  496  vi top11.txt
+  497  touch Employee.txt
+  498  vi Employee.txt
+  499  awk '{print 1,4 }' Employee.txt
+  500  awk '{print $1,$4 }' Employee.txt
+  501  vi Employee.txt
+  502  awk '{print NR,$0}' employee.txt 
+  503  awk '{print NR,$0}' Employee.txt 
+  504  awk Employee.txt
+  505  awk '{ print Employee.txt }'
+  506  awk '{ print }' Employee.txt
+  507  awk '{print NR }' Employee.txt 
+  508  awk '{print NR, $0 }' Employee.txt 
+  509  awk '{ if (length($0) > max) max = length($0) } END { print max }' geeksforgeeks.txt
+  510  clear
+  511  touch geeks
+  512  vi geeks
+  513  awk '{ if (length($0) > max) max = length($0) } END { print max }' geeks
+  514  cat > geeksforgeeks.txt
+  515  awk -F '{ print R }' Employee.txt
+  516  awk -F '{ print NR }' Employee.txt
+  517  ls
+  518  awk  '{ print NR }' Employee.txt
+  519  awk '{ print NR } Employee.txt
+  520  awk '{ print NR }' Employee.txt
+  521  awk '{ print NR,$0 }' Employee.txt
+  522  awk '{ print NR,$1 }' Employee.txt
+  523  awk '{ print NR,$1,$4 }' Employee.txt
+  524  touch gli
+  525  vi gli
+  526  awk '{print NR "- " $1 }' gli
+  527  awk 'END { print NR }' gli
+  528   awk '{ if($3 == "B6") print $0;}' gli
+  529  vi state.txt
+  530  cut -b 1,2,3 state.txt
+  531  cut -c 1,2,3 state.txt
+  532  cut -c -5 state.txt
+  533  vi state.txt
+  534  clear
+  535  for n in a b c; do    echo $n; done
+  536  for s in a b c; do echo $s; done
+  537  vim for.sh
+  538  for n in {1..5};  do     echo $n; done
+  539  for n in {1..5};  do     echo $n
+  540  clear
+  541  for n in {1..10}; do echo n; done
+  542  for n in {1..10}; do echo $n; done
+  543  :q
+  544  clear
+  545  #!/bin/bash
+  546  for n in {1..5};  do     echo $n; done
+  547  vim for.sh
+  548  for n in {1..5..2};  do     echo $n; done
+  549  s=("football" "cricket" "hockey") 
+  550  for n in ${s[@]};  do     echo $n; done
+  551  for n in ${s};  do     echo $n; done
+  552  for n in ${a[@]};  do     echo $n; done
+  553  for n in ${s[@]};  do     echo $n; done
+  554  n=7
+  555  for (( i=1 ; i<=$n ; i++ ));  do     echo $i; done
+  556  clear
+  557  cd taxidata
+  558  ls
+  559  ls
+  560  cd taxidata
+  561  ls
+  562  clear
+  563  view 2019-05.csv
+  564  awk -F, ',' '{ sum+= $17; count++ } END { print sum/count}' 2019-05.csv 
+  565  awk -F ',' '{ sum+= $17; count++ } END { print sum/count}' 2019-05.csv 
+  566  cut -d, -f 17 2019-05.csv | sort | sort -nr | head -n 1
+  567  clear
+  568  ls
+  569  view 2019-05.csv
+  570  cut -d ',' -f 9 2019-05.csv
+  571  clear
+  572  cut -d ',' -f 9 2019-05.csv | sort | uniq -c | sort -nr | head -n 10
+  573  cut -d ',' -f 9 2019-05.csv | sort | uniq -c | sort -nr | head -n 10 > wsv5.csv
+  574  clear
+  575  touch add
+  576  vi add
+  577  awk -F, ',' '{ sum += $1 } END { print sum }' add
+  578  awk -F ',' '{ sum += $1 } END { print sum }' add
+  579  awk -F ',' '{ sum += $1; count++ } END { print sum/count }' add
+  580  vi add
+  581  clear
+  582  mkdir ws9e/Fare
+  583  mkdir ws4
+  584  rmdir ws4
+  585  mkdir ws9
+  586  mkdir fare/ws9
+  587  mkdir ws9/fare
+  588  cd ws9
+  589  ls
+  590  rmdir Fare
+  591  rmdir fare
+  592  rmdir ws9
+  593  ls
+  594  cd ..
+  595  rmdir ws9
+  596  ls
+  597  clear
+  598  mkdir ws9
+  599  cd ws9
+  600  mkdir fare
+  601  ls
+  602  cd ..
+  603  cd taxidata
+  604  mkdir ws10
+  605  mkdir ws10/fare
+  606  mkdir ws20
+  607  mkdir ws20/saad
+  608  cd ws20
+  609  ls
+  610  vi 2019-06.csv
+  611  cd taxidata
+  612  cd ..
+  613  vi 2019-05.csv
+  614  awk -F ',' '$8 == 48 && $9 == 120 {print 
+  615  awk -F ',' '$8 == 48 && $9 == 120 {print $11 }' 2019-6.csv 
+  616  awk -F ',' '$8 == 48 && $9 == 120 {print $11 }' 2019-06.csv 
+  617  awk -F ',' '$8 == 48 && $9 == 120 {print $11 }' 2019-06.csv > ws4/fare
+  618  cd ws4
+  619  ls
+  620  vi fare
+  621  sude $HOME
+  622  sudo $HOME
+  623  clear
+  624  vi 2019-05.csv
+  625  view 2019-05.csv
+  626  ls
+  627  cd taxidata
+  628  ls
+  629  view 2019-05.csv
+  630  awk -F ',' '{ sum+= $17; count++ } END { print sum/count }' 2019-05.csv 
+  631  awk -F ',' '{ sum += $17; count++ } END { print sum/count }' 2019-05.csv 
+  632  cut -d, ',' -f 17 | sort | sort -nr | head -n 1
+  633  cut -d ',' -f 17 | sort | sort -nr | head -n 1
+  634  cut -d ',' -f 17 2019-05.csv | sort | sort -nr | head -n 1
+  635  vi 2019-05.csv
+  636  cut -d ',' -f 9 2019-05.csv | sort | sort -nr | head -n 10
+  637  cut -d ',' -f 9 2019-05.csv | sort | uniq -c | sort -nr | head -n 10
+  638  awk -F ',' '{ add += $17 } END { print add / NR }'
+  639  awk -F ',' '{ add += $17 } END { print add / NR }' 2019-05.csv
+  640  grep '2019-05-11' 2019-05.csv | awk -F ',' '{ add += $17 } END { print add / NR }'
+  641  grep '2019-05-20' 2019-05.csv| awk -F ',' '{print $8 "," $9}' | sort | uniq -c | sort -nr | head -n 1
+  642  grep '2019-05-' 2019-05.csv | awk -F ',' '$4 >= 3 {print $9}' | sort | uniq -c | sort -nr | head -n 10
+  643  grep '2019-05-' 2019-05.csv | awk -F ',' '4 >= 3 {print $9}' | sort | uniq -c | sort -nr | head -n 10
+  644  touch paki
+  645  vi paki
+  646  paste -s d+ paki | bc
+  647  paste -s -d+ paki | bc
+  648  ls
+  649  vi file2
+  650  vi paki
+  651  wc paki
+  652  vi paki
+  653  wc -l paki
+  654  awk -F ',' '{ sum =+ $1 } END {print sum}
+  655  awk -F ',' '{ sum =+ $1 } END {print sum}' paki
+  656  awk -F ',' '{ sum =+ $1 } END {print sum}
+  657  awk -F ',' '{ sum =+ $1 } END {print sum}' paki
+  658  awk -F ',' '{ sum += $1 } END { print sum }' paki
+  659  lll
+  660  ls -latr
+  661  cd taxidata
+  662  lll
+  663  $ lll
+  664  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv
+  665  cd taxidata
+  666  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv
+  667  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv > aus
+  668  awk -F ',' '$8 == 234 { print $9 }'| | 2019-08.csv > aus
+  669  awk -F ',' '$8 == 234 { print $9 }'| sort | sort -nr | head -n 5 2019-08.csv > aus
+  670  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv| sort | sort -nr | head -n 5 > aus
+  671  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv | sort | sort -nr | head -n 5 > aus
+  672  vi aus
+  673  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv | sort | sort -r | head -n 5 > aus
+  674  vi aus
+  675  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv | sort | sort -r | uniq-c | head -n 5 > aus
+  676  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv | sort | sort -r | uniq -c | head -n 5 > aus
+  677  vi aus
+  678  grep -E '^([^,]*,){7} 234\.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -r | head -n 5 > ba
+  679  vi ba
+  680  ls
+  681  vi ba
+  682  grep -E '^([^,]*,){7} 234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -r | head -n 5 > ba
+  683  vi ba
+  684  clear
+  685  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv
+  686  clear
+  687  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv | sort| sort -nr | uniq -c | head -n 10 > eng 
+  688  fir i in $(eng):
+  689  for i in $(eng):; do grep '^([^,]*,) {8} $i 2019-08.csv > loc.txt
+  690  done
+  691  for i in $(cat eng):; di
+  692  for i in $(cat eng):; do grep -E "^([^,]*,) {8} $i" 2019-08.csv > loc.txt; done
+  693  vi loc.txt
+  694  for i in $(cat eng):; do grep -E "^([^,]*,) {8} $i" 2019-08.csv > $loc.txt; done
+  695  vi loc.txt
+  696  ls
+  697  vi eng
+  698  grep -E '^([^,]*,) {7} 234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -rn | head -n 100 | cut -c9- > top100.txt
+  699  or loc in $(cat top100.txt); do
+  700  or loc in $(cat top100.txt):
+  701  or loc in $(cat top100.txt);
+  702  vi top100.txt
+  703  clear
+  704  grep -E '^([^,]*,) {7} 234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -rn | head -n 100 | cut -c9- > top100.txt
+  705  vi top100.txt
+  706  for loc in $(cat top100.txt); do grep -E "^([^,]*,) {8} $loc" 2019-08.csv > "do234/$loc.txt"; done
+  707  vi loc.txt
+  708  vi top100.txt
+  709  grep -E '^([^,]*,) {7} 234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -rn | head -n 10 > top100.txt
+  710  vi top100.txt
+  711  grep -E '^([^,]*,) {7} 234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -nr | head -n 10 > top100.txt
+  712  i top100.txt
+  713  vi top100.txt
+  714  wc -l70.txt
+  715  wc -l 170.txt
+  716  wc -l
+  717  clear
+  718  for i in abc; do echo $i; done
+  719  cd taxidata
+  720  clear
+  721  awk -F ',' ' $8 == 234 { print $9 }' 2019-08.csv | sort | uniq -c | sort -nr | head -n 10 
+  722  awk -F ',' ' $8 == 234 { print $9 }' 2019-08.csv | sort | uniq -c | sort -nr | head -n 10 > wasim
+  723  for i in (wasim)
+  724  for i in (wasim);
+  725  for i in (wasim):
+  726  for i in wasim:; do echo $i; done
+  727  vi wasim
+  728  for i in wasim:; do grep -E clear
+  729  clear
+  730  touch paste
+  731  vi paste
+  732  paste -s d+ paste | bc
+  733  paste -s -d+ paste | bc
+  734  paste -s -d- paste | bc
+  735  paste -s -d+ paste | bc
+  736  paste -s -d- paste | bc
+  737  paste -s -d/ paste | bc
+  738  vi paste
+  739  paste -s -d/ paste | bc
+  740  vi paste
+  741  x = saad "12+5"| bc
+  742  x=`echo "12+5" | bc`
+  743  echo $x
+  744  x=`saad "12+5" | bc`
+  745  x=`saad "12+5" | bc`$ echo "12+5" | bc
+  746  $ echo "12+5" | bc
+  747   echo "12+5" | bc
+  748   saad "12+5" | bc
+  749   echo "12+5" | bc
+  750  clear
+  751  vi paste
+  752  awk '{print NR,$0}' paste
+  753  vi paste
+  754  awk '{print NR,$1}' paste
+  755  vi paste
+  756  vi pasts
+  757  vi paste
+  758  awk '{print NR,$0}' paste
+  759  vi ga
+  760  cut -c 2 ga
+  761  cut -c 2 3 ga
+  762  cut -c 2,3 ga
+  763  cut -b 2,3 ga
+  764  cut -d 2,3 ga
+  765  clear
+  766  echo $HOME
+  767  echo 'hello'
+  768  echo $($HOME)
+  769  echo “$(pwd)”
+  770  ls
+  771  ls -1
+  772  clear
+  773  ls -l file2
+  774  chown file2
+  775  chown 777 file2
+  776  chown 111 file 2
+  777  chown $(id -u) cs131
+  778  ls -l
+  779  :q
+  780  clear
+  781  chown “id -u” cs131
+  782  chown $(id-u) cs131
+  783  a = 1+2+3
+  784  a=1+2+3
+  785  b=a+1
+  786  b=$a+1
+  787  c=1+2+3
+  788  d=$c+1
+  789  echo $SHELL
+  790  echo $HOME
+  791  DATETIME=”$(date) today is a good day”
+  792  echo $DATETIME
+  793  26
+  794  ls
+  795  chown gli /tmp/paki
+  796  chmod -R 775 file2
+  797  ls -l
+  798  ls -l 775
+  799  ls -l file2
+  800  chmod -R 775 111 file2
+  801  chmod -R 111 file2
+  802  ls -l file2
+  803  chmod 775 file2
+  804  ls - file2
+  805  ls -l file2
+  806  who | wc -l
+  807  > ls
+  808  ls
+  809  clear
+  810  git add ws2
+  811  git commit -m "lol"
+  812  git main
+  813  git main origin
+  814  git origin main
+  815  git main origin 
+  816  vi cmds.log
+  817  cd cs131
+  818  vi cmds.log
+  819  ls
+  820  git add ws2
+  821  git commit "lol"
+  822  git -commit "lol"
+  823  vi cmds.log
+  824  clear
+  825  git add ws2
+  826  git commit -m "paki"
+  827  git push origin main
+  828  vi cmds.log
+  829  vim text.txt
+  830  cat text.txt
+  831  sed 's/jose/Diego/' text.txt
+  832  sed -e 's/Diego/jose/' -e 's/state/jose/' text.txt
+  833  cat text.txt
+  834  vim text.txt
+  835  cp text.txt test2.txt
+  836  ;s
+  837  ls
+  838  sed -l -e 's/jose/Diego/' -e 's/state jose/' text.txt
+  839  clear
+  840  vim inst
+  841  sef -f inst text.txt
+  842  clear
+  843  sef -f inst text.tx
+  844  ls
+  845  vi text.txt
+  846  vi in
+  847  sef -f in text.txt
+  848  sed -f in text.txt
+  849  replace San with SAN if the line has a word "State"
+  850  clear
+  851  cat text.txt
+  852  sed '/San state/ d' text.txt
+  853  sed '4 d' text.txt
+  854  sed -i '4 d' text.txt
+  855  cat text.txt
+  856  sed '/State/' s/san/SAN/' text.txt
+  857  cat text.txt
+  858  clear
+  859  cat text.txt
+  860  vim lol.txt
+  861  cat lol.txt
+  862  sed 's/sky/blue &/' lol.txt
+  863  sed 's/\(blue\) \(sky\)/\1 lol \2/' lol.txt
+  864  vim sep file
+  865  vim prac
+  866  sed '/135/35/' prac
+  867  sed s'/135/35/' prac
+  868  cd taxidata
+  869  ls
+  870  rm google
+  871  rmdir google
+  872  cd google
+  873  ls
+  874  cd lol
+  875  vi lol
+  876  rm lol
+  877  cd .
+  878  cd ..
+  879  rmdir google
+  880  clear
+  881  sed -n '/Vendor 2.0/p' 2019-11.csv > vendor2.csv
+  882  vi vendor2.csv
+  883  vim vendor2.csv
+  884  clear
+  885  wc vendor2.csv
+  886  sed 's/[:,"]//g; s/-//g' 2019-11.csv > no-separators.csv
+  887  head -10 no-separators.csv
+  888  sed 's/\.[0-9]*//g' no-separators.csv > no-fractions.csv
+  889  head -10 no-fractions.csv
+  890  history >> cmnd.log
+  891  mkdir ws6
+  892  mv vendor2.csv no-separators.csv no-fractions.csv cmnd.log ws6/
+  893  ls
+  894  cd ws6 
+  895  ls
+  896  vi no-fraction.csv
+  897  vi no-fractions.csv
+  898  vi vendor2.csv
+  899  vi no-separators.csv
+  900  :wq
+  901  mv ws6
+  902  mv ws6 ~
+  903  cd ..
+  904  ls
+  905  mv ws6 ~
+  906  cd ..
+  907  clear
+  908  ls
+  909  mv ws6 cs131
+  910  cd cs131
+  911  ls
+  912  git add ws6
+  913  vi cmds.log
+  914  git add ws6
+  915  cd ..
+  916  git add ws6
+  917  ls
+  918  cd cs131
+  919  git add ws6
+  920  git commit -m "ws6 assignemnt"
+  921  git push origin main
+  922  vi cmds.log
+  923  cd ..
+  924  ls
+  925  cd cs131
+  926  git add ws6
+  927  git push origin main
+  928  mv ws6 ~
+  929  cd ..
+  930  git add ws6
+  931  git commit -m "ws6 assignment"
+  932  git push origin main
+  933  git push origin
+  934  git push origin master
+  935  mv ws6 cs131
+  936  ls
+  937  cd ..
+  938  mv ws6 cs131
+  939  ls
+  940  cd cs131
+  941  c main
+  942  cd main
+  943  cd ..
+  944  ls
+  945  clear
+  946  cd main
+  947  main
+  948  logout
+  949  ls
+  950  cd cs131
+  951  ls
+  952  clear
+  953  git add ws6
+  954  git comit -m "ws6"
+  955  git commit -m "ws6"
+  956  vi cmds.log
+  957  clear
+  958  git add ws6
+  959  git commit -m "ws6"
+  960  git commit -m "ws6 assignemnt"
+  961  git commit -m "ws6 lol"
+  962  :wq
+  963  clear
+  964  git push origin main
+  965  git push origin mainm
+  966  got add ws6
+  967  ls
+  968  git add ws6
+  969  git push origin main
+  970  clear
+  971  git add ws6
+  972  git commit -m "ws6 assignemnt"
+  973  git commit -m "assignemnt"
+  974  clear
+  975  ls
+  976  git commit -m "git commit -m "new assignment "
+  977  git commit -m "git commit -m "new assignment"
+  978   "git commit -m "new assignment"
+  979  clear
+  980  git add .
+  981  git add ws6
+  982  git commit -m "ws6"
+  983  clear
+  984  git push origin main
+  985  clear
+  986  ls
+  987  cd ws6 
+  988  ls
+  989  git add .
+  990  git add ws6
+  991  clear
+  992  ccd ..
+  993  cd ..
+  994  git add .
+  995  git add origin main 
+  996  git push origin main 
+  997  clear
+  998  git add ws6
+  999  git push origin main
+ 1000  wc -l no-fractions.csv
+ 1001  cd cs131
+ 1002  wc -l no-fractions.csv
+ 1003  cd ws6
+ 1004  wc -l no-fractions.csv
+ 1005  head -10 no-fractions.csv
+ 1006  cd ..
+ 1007  git add ws6
+ 1008  git commit -m "add files"
+ 1009  git push origin main 
+ 1010  git add ws6
+ 1011  git push origin main 
+ 1012  cd ws6
+ 1013  ls
+ 1014  clear
+ 1015  ls
+ 1016  vi no-fraction.csv
+ 1017  rm no-fraction.csv
+ 1018  ls
+ 1019  vi no-fractions.cs
+ 1020  rm no-fractions.cs
+ 1021  no-fractions.csv
+ 1022  rm no-fractions.csv
+ 1023  ls
+ 1024  rm no-separators.csv
+ 1025  rm vendor2.csv
+ 1026  ls
+ 1027  mv cmds.log ~
+ 1028  mv cmnd.log ~
+ 1029  cd ..
+ 1030  ls
+ 1031  cd cs131
+ 1032  ls
+ 1033  cd ..
+ 1034  ls
+ 1035  vi cmnd.log
+ 1036  cd cs131
+ 1037  vi cmds.log
+ 1038  clear
+ 1039  ls
+ 1040  rmdir ws6
+ 1041  cd ..
+ 1042  cd taxidata
+ 1043  ls
+ 1044  sed -n '/Vendor 2.0/p' 2019-11.csv > vendor2.csv
+ 1045  wc vendor2.csv
+ 1046  sed 's/[:,"]//g; s/-//g' 2019-11.csv > no-separators.csv
+ 1047  sed 's/[:,"]//g; s/-//g' 2019-11.csv > no-separators.csv | head -10 no-separators.csv 
+ 1048  sed 's/[:,"]//g; s/-//g' 2019-11.csv > no-separators.csv
+ 1049  head -10 no-separators.csv
+ 1050  sed 's/\.[0-9]*//g' no-separators.csv > no-fractions.csv
+ 1051  head -10 no-fractions.csv
+ 1052  history >> cmds.log
+   86  clear
+   87  view 2019-03.csv
+   88  cut -d "," -f 8 2019-03.csv | sort | unniq -c | uniq -nr | head -n 3 >> ws3.txt
+   89  cut -d "," -f 8 2019-03.csv | sort | unniq -c | uniq -nr | head -n 3 > ws3.txt
+   90  cut -d "," -f 8 2019-03.csv | sort | uniq -c | uniq -nr | head -n 3 > ws3.txt
+   91  cut -d "," -f 8 2019-03.csv | sort | uniq -c | sort -nr | head -n 3 > ws3.txt
+   92  vi ws3.txt
+   93  rm ws3.txt
+   94  ls
+   95  ls 
+   96  cut -d "," -f 8 2019-01.csv | sort | uniq -c | sort -nr | head -n 3 > ws3.txt
+   97  cut -d "," -f 8 2019-02.csv | sort | uniq -c | sort -nr | head -n 3 > ws3.txt
+   98  vi ws3.txt
+   99  ls
+  100  rmdir 1
+  101  rm 1
+  102  ls
+  103  vi ws3.txt
+  104  clear
+  105  ls
+  106  em ws3.txt
+  107  rm ws3.txt
+  108  ls
+  109  vi ws3.txt
+  110  clear
+  111  ls
+  112  vi ws5.txt
+  113  clear
+  114  cut -d "," -f 8 2019-01.csv | sort | uniq -c | sort -nr | head -n 3 > ws3.txt
+  115  cut -d "," -f 8 2019-02.csv | sort | uniq -c | sort -nr | head -n 3 >> ws3.txt
+  116  vi ws3.txt
+  117  cut -d "," -f 8 2019-01.csv | sort | uniq -c | sort -nr | head -n 3 > ws9.txt
+  118  cut -d "," -f 8 2019-02.csv | sort | uniq -c | sort -nr | head -n 3 > ws9.txt
+  119  vi ws9.txt
+  120  cut -d "," -f 8 2019-02.csv | sort | uniq -c | sort -nr | head -n 3 >> ws9.txt
+  121  vi ws9.txt
+  122  clear
+  123  clear
+  124  ls
+  125  vi mac
+  126  touch again
+  127  vi again
+  128  at again | paste -sd+ - |bc -lq
+  129  cat again | paste -sd+ - |bc -lq
+  130  cat again | paste -sd+ - |bc
+  131  cat again | paste -sd+ - | bc
+  132  vi again
+  133  cat again | paste -sd+ - | bc
+  134  paste -d -d+ again | bc
+  135  paste -d -d+ again |bc
+  136  paste -s -d+ again |bc
+  137  paste -sd+ again |bc
+  138  paste -sd+ -  again |bc
+  139  paste -sd+ - again |bc
+  140  paste -s -d+ again | bc
+  141  paste -s -d' ' again | bc
+  142  vi again
+  143  paste -s -d+ again | bc
+  144  cat again | paste -sd+ - | bc
+  145  ls
+  146  cat again
+  147  paste -s again
+  148  ls
+  149  paste -s again
+  150  paste -s -d+ again
+  151  paste -s -d+ again | bc
+  152  paste -s -d+ again
+  153  paste -s -d+ again|bc
+  154  paste -s -d+ again| bc
+  155  paste -s -d+ again
+  156  vi mash
+  157  cd taxidata
+  158  vi fak
+  159  paste -s -d+ again
+  160  paste -s -d+ fak
+  161  paste -s -d+ fak | bc
+  162  clear
+  163  cd taxidata
+  164  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > new.txt
+  165  awk -F, '$8 == 50.0 && $9 == 162.0 { print $12 }' 2019-06.csv > new.txt
+  166  ls
+  167  vi new.txt
+  168  vim new.txt
+  169  ls
+  170  cd taxidata
+  171  ls
+  172  cat new.txt | paste -sd+ | bs - lq | awk '{ print $0 }' > ws4.txt
+  173  clear
+  174  cat new.txt | paste -sd+ - | bc -lq | awk '{ print $0 }' > ws4.txt
+  175  vi ws4.txt
+  176  clear
+  177  ls
+  178  clear
+  179  touch kite
+  180  vi kite
+  181  sort kite
+  182  sort -n kite
+  183  clear
+  184  vi kite
+  185  sort -n kite
+  186  vi kite
+  187  sort -n kite
+  188  sort -nr kite
+  189  ls
+  190  view 2019-01.csv
+  191  cut -d "," -f 8 2019-01.csv
+  192  cut -d "," -f 9 2019-01.csv
+  193  sort -n kite
+  194  sort -nr kite
+  195  cut -d "," -f 9 2019-01.csv | sort | sort -nr | head -n 3 > lund
+  196  ls
+  197  vi lund 
+  198  clear
+  199  rm lund 
+  200  vi kite
+  201  head -n 5 > bund
+  202  head -n 5 >>  bund
+  203  head -n 3 kite > bund
+  204  vi bund
+  205  vi kite
+  206  head -n 5 kite > bund
+  207  vi bund
+  208  sort -nr kite | head -n3 > bund
+  209  vi bund
+  210  sort kite | sort -nr | head -n3 > bund
+  211  vi bund
+  212  clear
+  213  vi bund 
+  214  ls
+  215  cd taxidata
+  216  ls
+  217  vi 2019-06.csv
+  218  :x
+  219  clear
+  220  awk -f, print{$12} 2019-06.csv
+  221  awk -f, '{ print $12 }'
+  222  awk -f, '{ print $12 }' 2019-06.csv
+  223  awk -F, '{ print $12 }' 2019-06.csv
+  224  clear
+  225  awk -F, ' { print $12 }' 2019-06.csv
+  226  c;ear
+  227  clear
+  228  awk -F, '$8 == 48.0' 2019-06.csv
+  229  clear
+  230  awk -F, $8 = 48 2019-06.csv
+  231  awk -F, '$8 = 48' 2019-06.csv
+  232  clear
+  233  a
+  234  cd taxidata
+  235  ls
+  236  awk -F, '$8 == 48.0 && $9 == 161.0' 2019-06.csv > yaar
+  237  ls
+  238  vi yaar
+  239  cat ws4/FARE/48.0-161.0.txt | paste -sd+ - | bc -lq | > dsa
+  240  cat yaar | paste -sd+ - | bc -lq | > dsa
+  241  :q
+  242  clear
+  243  cat yaar | paste -sd+ - | bc -lq | awk '{ print $0 }' > ws4.txt
+  244  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  245  clear
+  246  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  247  ls
+  248  rm bund
+  249  rm dsa
+  250  rm fak
+  251  rm kite
+  252  rm lol
+  253  rm new,txt
+  254  rm new.txt
+  255  rm poki
+  256  rm resultss.txt
+  257  rm yaar
+  258  rm ws9.txt
+  259  ls
+  260  clear
+  261  ls
+  262  mkdir ws9
+  263  nkdir fare
+  264  mkdir Fare
+  265  vi 2019-06.csv
+  266  awk -F, '$8 == 49 && $9 == 150 { print $11 }' 2019-06.csv > ws4/Fare/kite
+  267  awk -F, '$8 == 49 && $9 == 150 { print $11 }' 2019-06.csv > ws9/Fare/kite
+  268  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  269  cd ws4
+  270  rm ws4
+  271  ls
+  272  crm Fare
+  273  rm ws9
+  274  cd ws9
+  275  clear
+  276  mkdir Fare
+  277  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  278  cd ..
+  279  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  280  mkdir -p ws4/FARE
+  281  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  282  vi ws4/Fare
+  283  cat ws4/FARE/48.0-161.0.txt | paste -sd+ - | bc -lq | awk '{ print $0 }' > ws4.txt
+  284  vi ws4/Fare
+  285  vi ws4.txt
+  286  at ws4/FARE/50.0-162.0.txt | paste -sd+ - | bc -lq | awk '{ print $0 }' >> ws4.txt
+  287  cat ws4/FARE/50.0-162.0.txt | paste -sd+ - | bc -lq | awk '{ print $0 }' >> ws4.txt
+  288  vi 48.0-161.0.txt
+  289  vim 48.0-161.0.txt
+  290  clear
+  291  ls
+  292  rm ws9
+  293  rmdir ws9
+  294  clear
+  295  cd ws9
+  296  ls
+  297  rm Fare
+  298  cd Fare
+  299  ls
+  300  rmdir Fare
+  301  cd ..
+  302  rmdir Fare
+  303  ls
+  304  cd ..
+  305  ls
+  306  rmdir ws9
+  307  ls
+  308  rmdir Fare
+  309  clear
+  310  ls
+  311  awk -F, '$8 == 160' > usa
+  312  awk -F, '$8 == 160' 2019-06.csv  > usa
+  313  awk -F, '$8 == 160' 2019-06.csv > usa
+  314  cd taxidata
+  315  ls
+  316  vi usa
+  317  awk -F, '$9 == 162' 2019-06.csv > usaa
+  318  awk -F, '{ print $12 } 2019-06.csv > usaaa
+  319  awk -F, '{ print $12 } 2019-06.csv >> usaaa
+  320  awk -F, '{ print $12 }' 2019-06.csv > Fare
+  321  vi Fare
+  322  vi usaa
+  323  cat ws4 | paste -sd+ - | bc -lq | awk '{ print $0 }' > ws4.txt
+  324  cat usa/usaa/Fare | paste -sd+ - | bc -lq | awk '{ print $0 }' > ws4.txt
+  325  cat usa | paste -sd+ - | bc -lq | awk '{ print $0 }' > ws4.txt
+  326  :Q
+  327  :q
+  328  clear
+  329  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  330  awk -F, '$8 == 50.0 && $9 == 162.0 { print $12 }' 2019-06.csv > ws4/FARE/50.0-162.0.txt
+  331  cat ws4/FARE/48.0-161.0.txt | paste -sd+ - | bc -lq | awk '{ print $0 }' > ws4.txt
+  332  cat ws4/FARE/50.0-162.0.txt | paste -sd+ - | bc -lq | awk '{ print $0 }' >> ws4.txt
+  333  vi ws4.txt
+  334  vi Fare
+  335  vi 48.0-161.0.txt 
+  336  vi ws4/Fare
+  337  d ..
+  338  cd .. 
+  339  cs131
+  340  cd ..
+  341  cs 131
+  342  cd cs131
+  343  ls
+  344  clear
+  345  ls
+  346  cd taxidata
+  347  logout
+  348  ls
+  349  cd cs131
+  350  ls
+  351  cd ws4
+  352  ls
+  353  vi Fare
+  354  cd ..
+  355  ls
+  356  vi ws4.txt
+  357  clear
+  358  ls
+  359  cd ws4
+  360  ls
+  361  cd taxidata
+  362  ls
+  363  clear
+  364  ls
+  365  cd ..
+  366  cd cs131
+  367  ls
+  368  cd FARE
+  369  vi
+  370  cd ..
+  371  Cd FARE
+  372  cd FARE
+  373  ls
+  374  vi 48.0-161.0.txt
+  375  cd taxidata
+  376  cd ..
+  377  cd taxidata
+  378  ls
+  379  cd ..
+  380  ls
+  381  cd ..
+  382  ls
+  383  cd taxidata
+  384  ls
+  385  vi 2019-06.csv
+  386  clear
+  387  ps aux | head 
+  388  clease
+  389  clear
+  390   cd ..
+  391  ps aux | head 
+  392  ps aux | grep launched
+  393  ls
+  394  wc < mac
+  395  vi mac
+  396  vi again
+  397  wc < mac
+  398  :q
+  399  ls | wc
+  400  who | wc -l
+  401  cd taxidata
+  402  vi 2019-08.csv
+  403  grep -E '^([^,]*,){7}234.0' 2019-08.csv
+  404  clear
+  405  grep -E '^([^,]*,){7}234.0' 2019-08.csvgrep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -rn | head -n 5
+  406  clear
+  407  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -rn | head -n
+  408  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -rn | head -n 5
+  409  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9
+  410  clear
+  411  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 > head -n 3
+  412  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 | head -n 3
+  413  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -rn | head -n 3
+  414  view 2019-08.csv
+  415  grep -E '^([^,]*,){7}234.0' 2019-08.csv
+  416  clear
+  417  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d ',' -f7
+  418  clear
+  419  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f7
+  420  clear
+  421  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f7 | sort|uniq-c|sort-r|head-10
+  422  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f7 | sort | uniq -c | sort -r | head-10
+  423  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f7 | sort | uniq -c | sort -r | head -n 10
+  424  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f7 | sort | uniq -c | sort -r | head -n 3
+  425  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f7 | sort | uniq -c | sort -r | head -n 10
+  426  clear
+  427  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f7 | sort | uniq -c | sort -r | head -n 10
+  428  logout
+  429  cd taxidata
+  430  ls
+  431  awk -F, ',' '{ sum += 2 } End { print sum }' 2019-06.csv
+  432  awk -F ',' '{ sum += 2 } End { print sum }' 2019-06.csv
+  433  awk -F ',' '{ sum += 2 } End { print sum }' 2019-06.csv > sum.file
+  434  vi sum.file
+  435  vi 2019-06.csv
+  436  awk -F ',' '{ sum += $8 } End { print sum }' 2019-06.csv > sum.file
+  437  vi sum.file
+  438  awk -F ',' '{ sum += $8 } END { print sum }' 2019-06.csv > sum.file
+  439  vi sum.file
+  440  clear
+  441  touch Average
+  442  vi Average
+  443  awk -F ',' { sum += $1 } END { print sum } Average
+  444  awk -F ',' '{ sum += $1 } END { print sum }' Average
+  445  vi touch 
+  446  vi Average
+  447  awk -F ',' '{ sum -= $1 } END { print sum }' Average
+  448  awk -F ',' '{ sum *= $1 } END { print sum }' Average
+  449  awk -F ',' '{ sum /= $1 } END { print sum }' Average
+  450  awk -F ',' '{ sum \= $1 } END { print sum }' Average
+  451  clear
+  452  awk -F ',' '{ sum += $1; count++ } END { print sum/count }' Average
+  453  vi Average 
+  454  bc -l < Average
+  455  bc -1 < Average
+  456  bc -l < Average
+  457  clear
+  458  sort -nr Average | awk -F ',' '{ sum += $1; count++ } END { print sum }' 
+  459  sort -nr Average | awk -F ',' '{ sum += $1; count++ } END { print sum / count }' 
+  460  paste -d+ Average | bc
+  461  awk -F ',' '{ print $NF } Average
+  462  awk -F ',' '{ print $NF }' Average
+  463  clear
+  464  awk -F ',' '$8 == 48 && $9 == 160 { print $12 }' 2019-06.csv > google/lol
+  465  cd taxidata
+  466  clear
+  467  mkdir google
+  468  awk -F ',' '$8 == 48 && $9 == 160 { print $12 }' 2019-06.csv > google/lol
+  469  ls
+  470  cd google 
+  471  ls
+  472  vi lol
+  473  awk -F ',' '{sum += $12; count++  } END { print sum/count}' 2019-06.csv
+  474  cd ..
+  475  awk -F ',' '{sum += $12; count++  } END { print sum/count}' 2019-06.csv
+  476  cd atxidata
+  477  cd taidata
+  478  cd taxidata
+  479  ls
+  480  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f7 | sort | uniq -c | sort -r | head -n 10
+  481  cut -d, -f7 2019-08.csv | sort | uniq -c | sort -nr | head -n 10
+  482  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -nr | head -n 100 | cut -c9- > top10.txt
+  483  vi top10.txt
+  484  clear
+  485  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -nr | head -n 10 | cut -c9- > top10.txt
+  486  vi top10.txt
+  487  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -nr | head -n 10  > top10.txt
+  488  vi top10.txt
+  489  awk -F ',' '$8 == "234.0" {print $9}' 2019-08.csv | sort | uniq -c | sort -nr | head -n 100 > top10.txt
+  490  vi top10.txt
+  491  grep -E '^([^,]*,){7}234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -nr | head -n 10  > top10.txt
+  492  vi top10.txt
+  493  awk -F ',' '$8 == "234.0" {print $9}' 2019-08.csv | sort | uniq -c | sort -nr | head -n 100 > top11.txt
+  494  vi top11.txt
+  495  awk -F ',' '$8 == "234.0" {print $9}' 2019-08.csv | sort | uniq -c | sort -nr | head -n 10 > top11.txt
+  496  vi top11.txt
+  497  touch Employee.txt
+  498  vi Employee.txt
+  499  awk '{print 1,4 }' Employee.txt
+  500  awk '{print $1,$4 }' Employee.txt
+  501  vi Employee.txt
+  502  awk '{print NR,$0}' employee.txt 
+  503  awk '{print NR,$0}' Employee.txt 
+  504  awk Employee.txt
+  505  awk '{ print Employee.txt }'
+  506  awk '{ print }' Employee.txt
+  507  awk '{print NR }' Employee.txt 
+  508  awk '{print NR, $0 }' Employee.txt 
+  509  awk '{ if (length($0) > max) max = length($0) } END { print max }' geeksforgeeks.txt
+  510  clear
+  511  touch geeks
+  512  vi geeks
+  513  awk '{ if (length($0) > max) max = length($0) } END { print max }' geeks
+  514  cat > geeksforgeeks.txt
+  515  awk -F '{ print R }' Employee.txt
+  516  awk -F '{ print NR }' Employee.txt
+  517  ls
+  518  awk  '{ print NR }' Employee.txt
+  519  awk '{ print NR } Employee.txt
+  520  awk '{ print NR }' Employee.txt
+  521  awk '{ print NR,$0 }' Employee.txt
+  522  awk '{ print NR,$1 }' Employee.txt
+  523  awk '{ print NR,$1,$4 }' Employee.txt
+  524  touch gli
+  525  vi gli
+  526  awk '{print NR "- " $1 }' gli
+  527  awk 'END { print NR }' gli
+  528   awk '{ if($3 == "B6") print $0;}' gli
+  529  vi state.txt
+  530  cut -b 1,2,3 state.txt
+  531  cut -c 1,2,3 state.txt
+  532  cut -c -5 state.txt
+  533  vi state.txt
+  534  clear
+  535  for n in a b c; do    echo $n; done
+  536  for s in a b c; do echo $s; done
+  537  vim for.sh
+  538  for n in {1..5};  do     echo $n; done
+  539  for n in {1..5};  do     echo $n
+  540  clear
+  541  for n in {1..10}; do echo n; done
+  542  for n in {1..10}; do echo $n; done
+  543  :q
+  544  clear
+  545  #!/bin/bash
+  546  for n in {1..5};  do     echo $n; done
+  547  vim for.sh
+  548  for n in {1..5..2};  do     echo $n; done
+  549  s=("football" "cricket" "hockey") 
+  550  for n in ${s[@]};  do     echo $n; done
+  551  for n in ${s};  do     echo $n; done
+  552  for n in ${a[@]};  do     echo $n; done
+  553  for n in ${s[@]};  do     echo $n; done
+  554  n=7
+  555  for (( i=1 ; i<=$n ; i++ ));  do     echo $i; done
+  556  clear
+  557  cd taxidata
+  558  ls
+  559  ls
+  560  cd taxidata
+  561  ls
+  562  clear
+  563  view 2019-05.csv
+  564  awk -F, ',' '{ sum+= $17; count++ } END { print sum/count}' 2019-05.csv 
+  565  awk -F ',' '{ sum+= $17; count++ } END { print sum/count}' 2019-05.csv 
+  566  cut -d, -f 17 2019-05.csv | sort | sort -nr | head -n 1
+  567  clear
+  568  ls
+  569  view 2019-05.csv
+  570  cut -d ',' -f 9 2019-05.csv
+  571  clear
+  572  cut -d ',' -f 9 2019-05.csv | sort | uniq -c | sort -nr | head -n 10
+  573  cut -d ',' -f 9 2019-05.csv | sort | uniq -c | sort -nr | head -n 10 > wsv5.csv
+  574  clear
+  575  touch add
+  576  vi add
+  577  awk -F, ',' '{ sum += $1 } END { print sum }' add
+  578  awk -F ',' '{ sum += $1 } END { print sum }' add
+  579  awk -F ',' '{ sum += $1; count++ } END { print sum/count }' add
+  580  vi add
+  581  clear
+  582  mkdir ws9e/Fare
+  583  mkdir ws4
+  584  rmdir ws4
+  585  mkdir ws9
+  586  mkdir fare/ws9
+  587  mkdir ws9/fare
+  588  cd ws9
+  589  ls
+  590  rmdir Fare
+  591  rmdir fare
+  592  rmdir ws9
+  593  ls
+  594  cd ..
+  595  rmdir ws9
+  596  ls
+  597  clear
+  598  mkdir ws9
+  599  cd ws9
+  600  mkdir fare
+  601  ls
+  602  cd ..
+  603  cd taxidata
+  604  mkdir ws10
+  605  mkdir ws10/fare
+  606  mkdir ws20
+  607  mkdir ws20/saad
+  608  cd ws20
+  609  ls
+  610  vi 2019-06.csv
+  611  cd taxidata
+  612  cd ..
+  613  vi 2019-05.csv
+  614  awk -F ',' '$8 == 48 && $9 == 120 {print 
+  615  awk -F ',' '$8 == 48 && $9 == 120 {print $11 }' 2019-6.csv 
+  616  awk -F ',' '$8 == 48 && $9 == 120 {print $11 }' 2019-06.csv 
+  617  awk -F ',' '$8 == 48 && $9 == 120 {print $11 }' 2019-06.csv > ws4/fare
+  618  cd ws4
+  619  ls
+  620  vi fare
+  621  sude $HOME
+  622  sudo $HOME
+  623  clear
+  624  vi 2019-05.csv
+  625  view 2019-05.csv
+  626  ls
+  627  cd taxidata
+  628  ls
+  629  view 2019-05.csv
+  630  awk -F ',' '{ sum+= $17; count++ } END { print sum/count }' 2019-05.csv 
+  631  awk -F ',' '{ sum += $17; count++ } END { print sum/count }' 2019-05.csv 
+  632  cut -d, ',' -f 17 | sort | sort -nr | head -n 1
+  633  cut -d ',' -f 17 | sort | sort -nr | head -n 1
+  634  cut -d ',' -f 17 2019-05.csv | sort | sort -nr | head -n 1
+  635  vi 2019-05.csv
+  636  cut -d ',' -f 9 2019-05.csv | sort | sort -nr | head -n 10
+  637  cut -d ',' -f 9 2019-05.csv | sort | uniq -c | sort -nr | head -n 10
+  638  awk -F ',' '{ add += $17 } END { print add / NR }'
+  639  awk -F ',' '{ add += $17 } END { print add / NR }' 2019-05.csv
+  640  grep '2019-05-11' 2019-05.csv | awk -F ',' '{ add += $17 } END { print add / NR }'
+  641  grep '2019-05-20' 2019-05.csv| awk -F ',' '{print $8 "," $9}' | sort | uniq -c | sort -nr | head -n 1
+  642  grep '2019-05-' 2019-05.csv | awk -F ',' '$4 >= 3 {print $9}' | sort | uniq -c | sort -nr | head -n 10
+  643  grep '2019-05-' 2019-05.csv | awk -F ',' '4 >= 3 {print $9}' | sort | uniq -c | sort -nr | head -n 10
+  644  touch paki
+  645  vi paki
+  646  paste -s d+ paki | bc
+  647  paste -s -d+ paki | bc
+  648  ls
+  649  vi file2
+  650  vi paki
+  651  wc paki
+  652  vi paki
+  653  wc -l paki
+  654  awk -F ',' '{ sum =+ $1 } END {print sum}
+  655  awk -F ',' '{ sum =+ $1 } END {print sum}' paki
+  656  awk -F ',' '{ sum =+ $1 } END {print sum}
+  657  awk -F ',' '{ sum =+ $1 } END {print sum}' paki
+  658  awk -F ',' '{ sum += $1 } END { print sum }' paki
+  659  lll
+  660  ls -latr
+  661  cd taxidata
+  662  lll
+  663  $ lll
+  664  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv
+  665  cd taxidata
+  666  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv
+  667  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv > aus
+  668  awk -F ',' '$8 == 234 { print $9 }'| | 2019-08.csv > aus
+  669  awk -F ',' '$8 == 234 { print $9 }'| sort | sort -nr | head -n 5 2019-08.csv > aus
+  670  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv| sort | sort -nr | head -n 5 > aus
+  671  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv | sort | sort -nr | head -n 5 > aus
+  672  vi aus
+  673  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv | sort | sort -r | head -n 5 > aus
+  674  vi aus
+  675  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv | sort | sort -r | uniq-c | head -n 5 > aus
+  676  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv | sort | sort -r | uniq -c | head -n 5 > aus
+  677  vi aus
+  678  grep -E '^([^,]*,){7} 234\.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -r | head -n 5 > ba
+  679  vi ba
+  680  ls
+  681  vi ba
+  682  grep -E '^([^,]*,){7} 234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -r | head -n 5 > ba
+  683  vi ba
+  684  clear
+  685  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv
+  686  clear
+  687  awk -F ',' '$8 == 234 { print $9 }' 2019-08.csv | sort| sort -nr | uniq -c | head -n 10 > eng 
+  688  fir i in $(eng):
+  689  for i in $(eng):; do grep '^([^,]*,) {8} $i 2019-08.csv > loc.txt
+  690  done
+  691  for i in $(cat eng):; di
+  692  for i in $(cat eng):; do grep -E "^([^,]*,) {8} $i" 2019-08.csv > loc.txt; done
+  693  vi loc.txt
+  694  for i in $(cat eng):; do grep -E "^([^,]*,) {8} $i" 2019-08.csv > $loc.txt; done
+  695  vi loc.txt
+  696  ls
+  697  vi eng
+  698  grep -E '^([^,]*,) {7} 234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -rn | head -n 100 | cut -c9- > top100.txt
+  699  or loc in $(cat top100.txt); do
+  700  or loc in $(cat top100.txt):
+  701  or loc in $(cat top100.txt);
+  702  vi top100.txt
+  703  clear
+  704  grep -E '^([^,]*,) {7} 234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -rn | head -n 100 | cut -c9- > top100.txt
+  705  vi top100.txt
+  706  for loc in $(cat top100.txt); do grep -E "^([^,]*,) {8} $loc" 2019-08.csv > "do234/$loc.txt"; done
+  707  vi loc.txt
+  708  vi top100.txt
+  709  grep -E '^([^,]*,) {7} 234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -rn | head -n 10 > top100.txt
+  710  vi top100.txt
+  711  grep -E '^([^,]*,) {7} 234.0' 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -nr | head -n 10 > top100.txt
+  712  i top100.txt
+  713  vi top100.txt
+  714  wc -l70.txt
+  715  wc -l 170.txt
+  716  wc -l
+  717  clear
+  718  for i in abc; do echo $i; done
+  719  cd taxidata
+  720  clear
+  721  awk -F ',' ' $8 == 234 { print $9 }' 2019-08.csv | sort | uniq -c | sort -nr | head -n 10 
+  722  awk -F ',' ' $8 == 234 { print $9 }' 2019-08.csv | sort | uniq -c | sort -nr | head -n 10 > wasim
+  723  for i in (wasim)
+  724  for i in (wasim);
+  725  for i in (wasim):
+  726  for i in wasim:; do echo $i; done
+  727  vi wasim
+  728  for i in wasim:; do grep -E clear
+  729  clear
+  730  touch paste
+  731  vi paste
+  732  paste -s d+ paste | bc
+  733  paste -s -d+ paste | bc
+  734  paste -s -d- paste | bc
+  735  paste -s -d+ paste | bc
+  736  paste -s -d- paste | bc
+  737  paste -s -d/ paste | bc
+  738  vi paste
+  739  paste -s -d/ paste | bc
+  740  vi paste
+  741  x = saad "12+5"| bc
+  742  x=`echo "12+5" | bc`
+  743  echo $x
+  744  x=`saad "12+5" | bc`
+  745  x=`saad "12+5" | bc`$ echo "12+5" | bc
+  746  $ echo "12+5" | bc
+  747   echo "12+5" | bc
+  748   saad "12+5" | bc
+  749   echo "12+5" | bc
+  750  clear
+  751  vi paste
+  752  awk '{print NR,$0}' paste
+  753  vi paste
+  754  awk '{print NR,$1}' paste
+  755  vi paste
+  756  vi pasts
+  757  vi paste
+  758  awk '{print NR,$0}' paste
+  759  vi ga
+  760  cut -c 2 ga
+  761  cut -c 2 3 ga
+  762  cut -c 2,3 ga
+  763  cut -b 2,3 ga
+  764  cut -d 2,3 ga
+  765  clear
+  766  echo $HOME
+  767  echo 'hello'
+  768  echo $($HOME)
+  769  echo “$(pwd)”
+  770  ls
+  771  ls -1
+  772  clear
+  773  ls -l file2
+  774  chown file2
+  775  chown 777 file2
+  776  chown 111 file 2
+  777  chown $(id -u) cs131
+  778  ls -l
+  779  :q
+  780  clear
+  781  chown “id -u” cs131
+  782  chown $(id-u) cs131
+  783  a = 1+2+3
+  784  a=1+2+3
+  785  b=a+1
+  786  b=$a+1
+  787  c=1+2+3
+  788  d=$c+1
+  789  echo $SHELL
+  790  echo $HOME
+  791  DATETIME=”$(date) today is a good day”
+  792  echo $DATETIME
+  793  26
+  794  ls
+  795  chown gli /tmp/paki
+  796  chmod -R 775 file2
+  797  ls -l
+  798  ls -l 775
+  799  ls -l file2
+  800  chmod -R 775 111 file2
+  801  chmod -R 111 file2
+  802  ls -l file2
+  803  chmod 775 file2
+  804  ls - file2
+  805  ls -l file2
+  806  who | wc -l
+  807  > ls
+  808  ls
+  809  clear
+  810  git add ws2
+  811  git commit -m "lol"
+  812  git main
+  813  git main origin
+  814  git origin main
+  815  git main origin 
+  816  vi cmds.log
+  817  cd cs131
+  818  vi cmds.log
+  819  ls
+  820  git add ws2
+  821  git commit "lol"
+  822  git -commit "lol"
+  823  vi cmds.log
+  824  clear
+  825  git add ws2
+  826  git commit -m "paki"
+  827  git push origin main
+  828  vi cmds.log
+  829  vim text.txt
+  830  cat text.txt
+  831  sed 's/jose/Diego/' text.txt
+  832  sed -e 's/Diego/jose/' -e 's/state/jose/' text.txt
+  833  cat text.txt
+  834  vim text.txt
+  835  cp text.txt test2.txt
+  836  ;s
+  837  ls
+  838  sed -l -e 's/jose/Diego/' -e 's/state jose/' text.txt
+  839  clear
+  840  vim inst
+  841  sef -f inst text.txt
+  842  clear
+  843  sef -f inst text.tx
+  844  ls
+  845  vi text.txt
+  846  vi in
+  847  sef -f in text.txt
+  848  sed -f in text.txt
+  849  replace San with SAN if the line has a word "State"
+  850  clear
+  851  cat text.txt
+  852  sed '/San state/ d' text.txt
+  853  sed '4 d' text.txt
+  854  sed -i '4 d' text.txt
+  855  cat text.txt
+  856  sed '/State/' s/san/SAN/' text.txt
+  857  cat text.txt
+  858  clear
+  859  cat text.txt
+  860  vim lol.txt
+  861  cat lol.txt
+  862  sed 's/sky/blue &/' lol.txt
+  863  sed 's/\(blue\) \(sky\)/\1 lol \2/' lol.txt
+  864  vim sep file
+  865  vim prac
+  866  sed '/135/35/' prac
+  867  sed s'/135/35/' prac
+  868  cd taxidata
+  869  ls
+  870  rm google
+  871  rmdir google
+  872  cd google
+  873  ls
+  874  cd lol
+  875  vi lol
+  876  rm lol
+  877  cd .
+  878  cd ..
+  879  rmdir google
+  880  clear
+  881  sed -n '/Vendor 2.0/p' 2019-11.csv > vendor2.csv
+  882  vi vendor2.csv
+  883  vim vendor2.csv
+  884  clear
+  885  wc vendor2.csv
+  886  sed 's/[:,"]//g; s/-//g' 2019-11.csv > no-separators.csv
+  887  head -10 no-separators.csv
+  888  sed 's/\.[0-9]*//g' no-separators.csv > no-fractions.csv
+  889  head -10 no-fractions.csv
+  890  history >> cmnd.log
+  891  mkdir ws6
+  892  mv vendor2.csv no-separators.csv no-fractions.csv cmnd.log ws6/
+  893  ls
+  894  cd ws6 
+  895  ls
+  896  vi no-fraction.csv
+  897  vi no-fractions.csv
+  898  vi vendor2.csv
+  899  vi no-separators.csv
+  900  :wq
+  901  mv ws6
+  902  mv ws6 ~
+  903  cd ..
+  904  ls
+  905  mv ws6 ~
+  906  cd ..
+  907  clear
+  908  ls
+  909  mv ws6 cs131
+  910  cd cs131
+  911  ls
+  912  git add ws6
+  913  vi cmds.log
+  914  git add ws6
+  915  cd ..
+  916  git add ws6
+  917  ls
+  918  cd cs131
+  919  git add ws6
+  920  git commit -m "ws6 assignemnt"
+  921  git push origin main
+  922  vi cmds.log
+  923  cd ..
+  924  ls
+  925  cd cs131
+  926  git add ws6
+  927  git push origin main
+  928  mv ws6 ~
+  929  cd ..
+  930  git add ws6
+  931  git commit -m "ws6 assignment"
+  932  git push origin main
+  933  git push origin
+  934  git push origin master
+  935  mv ws6 cs131
+  936  ls
+  937  cd ..
+  938  mv ws6 cs131
+  939  ls
+  940  cd cs131
+  941  c main
+  942  cd main
+  943  cd ..
+  944  ls
+  945  clear
+  946  cd main
+  947  main
+  948  logout
+  949  ls
+  950  cd cs131
+  951  ls
+  952  clear
+  953  git add ws6
+  954  git comit -m "ws6"
+  955  git commit -m "ws6"
+  956  vi cmds.log
+  957  clear
+  958  git add ws6
+  959  git commit -m "ws6"
+  960  git commit -m "ws6 assignemnt"
+  961  git commit -m "ws6 lol"
+  962  :wq
+  963  clear
+  964  git push origin main
+  965  git push origin mainm
+  966  got add ws6
+  967  ls
+  968  git add ws6
+  969  git push origin main
+  970  clear
+  971  git add ws6
+  972  git commit -m "ws6 assignemnt"
+  973  git commit -m "assignemnt"
+  974  clear
+  975  ls
+  976  git commit -m "git commit -m "new assignment "
+  977  git commit -m "git commit -m "new assignment"
+  978   "git commit -m "new assignment"
+  979  clear
+  980  git add .
+  981  git add ws6
+  982  git commit -m "ws6"
+  983  clear
+  984  git push origin main
+  985  clear
+  986  ls
+  987  cd ws6 
+  988  ls
+  989  git add .
+  990  git add ws6
+  991  clear
+  992  ccd ..
+  993  cd ..
+  994  git add .
+  995  git add origin main 
+  996  git push origin main 
+  997  clear
+  998  git add ws6
+  999  git push origin main
+ 1000  wc -l no-fractions.csv
+ 1001  cd cs131
+ 1002  wc -l no-fractions.csv
+ 1003  cd ws6
+ 1004  wc -l no-fractions.csv
+ 1005  head -10 no-fractions.csv
+ 1006  cd ..
+ 1007  git add ws6
+ 1008  git commit -m "add files"
+ 1009  git push origin main 
+ 1010  git add ws6
+ 1011  git push origin main 
+ 1012  cd ws6
+ 1013  ls
+ 1014  clear
+ 1015  ls
+ 1016  vi no-fraction.csv
+ 1017  rm no-fraction.csv
+ 1018  ls
+ 1019  vi no-fractions.cs
+ 1020  rm no-fractions.cs
+ 1021  no-fractions.csv
+ 1022  rm no-fractions.csv
+ 1023  ls
+ 1024  rm no-separators.csv
+ 1025  rm vendor2.csv
+ 1026  ls
+ 1027  mv cmds.log ~
+ 1028  mv cmnd.log ~
+ 1029  cd ..
+ 1030  ls
+ 1031  cd cs131
+ 1032  ls
+ 1033  cd ..
+ 1034  ls
+ 1035  vi cmnd.log
+ 1036  cd cs131
+ 1037  vi cmds.log
+ 1038  clear
+ 1039  ls
+ 1040  rmdir ws6
+ 1041  cd ..
+ 1042  cd taxidata
+ 1043  ls
+ 1044  sed -n '/Vendor 2.0/p' 2019-11.csv > vendor2.csv
+ 1045  wc vendor2.csv
+ 1046  sed 's/[:,"]//g; s/-//g' 2019-11.csv > no-separators.csv
+ 1047  sed 's/[:,"]//g; s/-//g' 2019-11.csv > no-separators.csv | head -10 no-separators.csv 
+ 1048  sed 's/[:,"]//g; s/-//g' 2019-11.csv > no-separators.csv
+ 1049  head -10 no-separators.csv
+ 1050  sed 's/\.[0-9]*//g' no-separators.csv > no-fractions.csv
+ 1051  head -10 no-fractions.csv
+ 1052  history >> cmds.log
+ 1053  mv vendor2.csv no-separators.csv no-fractions.csv ws6/
+ 1054  mkdir ws6
+ 1055  mv vendor2.csv no-separators.csv no-fractions.csv ws6/
+ 1056  mv ws6 ~
+ 1057  cd ..
+ 1058  mv ws6 cs131
+ 1059  cd cs131
+ 1060  ls
+ 1061  vi ws6
+ 1062  cd ws6 
+ 1063  ls
+ 1064  cd ..
+ 1065  git add ws6
+ 1066  cd ws6 
+ 1067  ls 
+ 1068  vi  no-separators.csv
+ 1069  clear
+ 1070  ls 
+ 1071  head -10 no-fractions.csv > no-fractions.csv
+ 1072  vi no-fractions.cs
+ 1073  rm no-fractions.cs
+ 1074  rm no-fractions.csv
+ 1075  rm no-separators.csv
+ 1076  rm vendor2.csv
+ 1077  rmdir ws6
+ 1078  cd ..
+ 1079  rmdir ws6
+ 1080  cd ..
+ 1081  cd taxidata
+ 1082  sed 's/[:,"]//g; s/-//g' 2019-11.csv |head -10 > no-separators.csv
+ 1083  vi no-separators.csv
+ 1084  sed 's/\.[0-9]*//g' no-separators.csv | head -10 > no-fractions.csv
+ 1085  history >> cmds.log
