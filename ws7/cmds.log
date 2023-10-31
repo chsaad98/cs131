@@ -1,0 +1,16 @@
+awk -F ',' 'NR > 1 && $6 >= 10.0 {
+  tip_counts[$18]++;
+}
+END
+ 1007  ls
+ 1008  awk -F ',' 'NR > 1 && $6 >= 10.0 {
+  tip_counts[$18]++;
+}
+END {
+  for (tip in tip_counts) {
+    print tip, tip_counts[tip];
+  }
+}' 2019-09.csv > results.txt
+ 1009  vi results.txt
+ 1010  sort -k2,2nr -k1,1n results.txt | head -n 20 > ws7.txt
+ 1011  history >> cmds.log
