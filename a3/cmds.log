@@ -1,0 +1,849 @@
+   40  wc -l no-fractions.csv 
+   41  wc -l no-fractions.csv
+   42  cd cs131
+   43  wc -l no-fractions.csv
+   44  cd ws6
+   45  wc -l no-fractions.csv
+   46  head -10 no-fractions.csv
+   47  cd ..
+   48  git add ws6
+   49  git commit -m "add files"
+   50  git push origin main 
+   51  git add ws6
+   52  git push origin main 
+   53  cd ws6
+   54  ls
+   55  clear
+   56  ls
+   57  vi no-fraction.csv
+   58  rm no-fraction.csv
+   59  ls
+   60  vi no-fractions.cs
+   61  rm no-fractions.cs
+   62  no-fractions.csv
+   63  rm no-fractions.csv
+   64  ls
+   65  rm no-separators.csv
+   66  rm vendor2.csv
+   67  ls
+   68  mv cmds.log ~
+   69  mv cmnd.log ~
+   70  cd ..
+   71  ls
+   72  cd cs131
+   73  ls
+   74  cd ..
+   75  ls
+   76  vi cmnd.log
+   77  cd cs131
+   78  vi cmds.log
+   79  clear
+   80  ls
+   81  rmdir ws6
+   82  cd ..
+   83  cd taxidata
+   84  ls
+   85  sed -n '/Vendor 2.0/p' 2019-11.csv > vendor2.csv
+   86  wc vendor2.csv
+   87  sed 's/[:,"]//g; s/-//g' 2019-11.csv > no-separators.csv
+   88  sed 's/[:,"]//g; s/-//g' 2019-11.csv > no-separators.csv | head -10 no-separators.csv 
+   89  sed 's/[:,"]//g; s/-//g' 2019-11.csv > no-separators.csv
+   90  head -10 no-separators.csv
+   91  sed 's/\.[0-9]*//g' no-separators.csv > no-fractions.csv
+   92  head -10 no-fractions.csv
+   93  history >> cmds.log
+   94  mv vendor2.csv no-separators.csv no-fractions.csv ws6/
+   95  mkdir ws6
+   96  mv vendor2.csv no-separators.csv no-fractions.csv ws6/
+   97  mv ws6 ~
+   98  cd ..
+   99  mv ws6 cs131
+  100  cd cs131
+  101  ls
+  102  vi ws6
+  103  cd ws6 
+  104  ls
+  105  cd ..
+  106  git add ws6
+  107  cd ws6 
+  108  ls 
+  109  vi  no-separators.csv
+  110  clear
+  111  ls 
+  112  head -10 no-fractions.csv > no-fractions.csv
+  113  vi no-fractions.cs
+  114  rm no-fractions.cs
+  115  rm no-fractions.csv
+  116  rm no-separators.csv
+  117  rm vendor2.csv
+  118  rmdir ws6
+  119  cd ..
+  120  rmdir ws6
+  121  cd ..
+  122  cd taxidata
+  123  sed 's/[:,"]//g; s/-//g' 2019-11.csv |head -10 > no-separators.csv
+  124  vi no-separators.csv
+  125  sed 's/\.[0-9]*//g' no-separators.csv | head -10 > no-fractions.csv
+  126  history >> cmds.log
+  127  mkdir ws6
+  128  mv mv vendor2.csv no-separators.csv no-fractions.csv cmds.log ws6/
+  129  mv vendor2.csv no-separators.csv no-fractions.csv cmds.log ws6/
+  130  sed -n '/Vendor 2.0/p' 2019-11.csv > vendor2.csv
+  131  wc vendor2.csv
+  132  mv vendor2.csv no-separators.csv no-fractions.csv cmds.log ws6/
+  133  ls
+  134  cd ws6
+  135  ls
+  136  vi no-fractions.csv
+  137  vi no-seperations.csv
+  138  vi no-separators.csv
+  139  vi vendor2.csv
+  140  vi cmds.log
+  141  clear
+  142  ls
+  143  rm no-seperations.csv 
+  144  ls
+  145  vi no-separators.csv
+  146  vi no-fractions.csv
+  147  clear
+  148  mv ws6 ~
+  149  ls
+  150  cd ..
+  151  mv ws6 ~
+  152  cd ..
+  153  mv ws6 cs131
+  154  cd cs131
+  155  ls
+  156  git add ws6
+  157  git commit "NEW FILE"
+  158  git commit -m "NEW FILE"
+  159  git push origin main
+  160  ls
+  161  wc -l ws6
+  162  wc -l no-fractions.csv
+  163  cd ws6
+  164  wc -l no-fractions.csv
+  165  wc -l no-separators.csv
+  166  cd ..
+  167  ls
+  168  cd ..
+  169  ls
+  170  cd taxidata
+  171  ls
+  172  clear
+  173  cd ..
+  174  cd cs131
+  175  ls
+  176  git add ws6
+  177  git push origin main
+  178  wc -l no-fractions.csv
+  179  celar
+  180  clear
+  181  git push origin main
+  182  clear
+  183  git push origin main
+  184  cd ws6
+  185  wc -l no-fractions.csv
+  186  wc -l no-separators.csv
+  187  vi new
+  188  sed ‘s/new/them/’ new
+  189  -sed ‘s/new/them/’ new
+  190  sed –e ‘s/new/them/’ new
+  191  sed –i ‘s/new/them/’ new
+  192  cat new
+  193  sed ‘/new/ d’ new
+  194  vi new
+  195  sed ‘/new/ d’ new
+  196  sed -e ‘/new/ d’ new
+  197  vi new 
+  198  sed 's/news/lol/' new
+  199  sed -e 's/news/lol/' -e  new
+  200  vi  new 
+  201  sed -e 's/media/news/' new
+  202  sed -e 's/media/news/' -e 's/media/lol/' new 
+  203  sed -e 's/media/news/' -e 's/lol/breaking/' new 
+  204  sed -i 's/media/news/' new
+  205  cat new
+  206  sed -i 's/media/achaa/' new
+  207  cat new
+  208  sed -i 's/media/medias/' new
+  209  cat new
+  210  sed  ' 1,2 s/media/news/' new
+  211  sed  '1 d' new
+  212  sed  '2 d' new
+  213  cat new
+  214  sed '/news/ d' new
+  215  cat new
+  216  sed 'i 3 new'
+  217  sed i 3 lol' new
+  218  sed 'i 3 lol' new
+  219  cat new 
+  220  clear
+  221  sed 'i3 lol' new
+  222  sed ' i 3 lol' new
+  223  clear
+  224  ls
+  225  ls*
+  226  ls *
+  227  clear
+  228  ls *.txt
+  229  cp draft?.doc
+  230  cp lol?.txt
+  231  ls data[0-1][0-9]
+  232  ls cs131[0-1][0-9]
+  233  message=You\ didn\’t\ enter\ the\ filename
+  234  vi filename
+  235  “$*” = “$1 $2 ... $n”
+  236  echo There are `ls | wc –l` files in the current
+  237  directory
+  238  clear
+  239  vi makefile
+  240  cat makefile
+  241  sed 's/i/I/g' makefile
+  242  vi make file
+  243  vi makefile
+  244  sed 's/^i/I/g' makefile
+  245  vi makefile
+  246  cat makefile
+  247  sed 's/old .$/younger/g' makefile
+  248  sed 's/old.$/younger/g' makefile
+  249  which bash
+  250  cd cs131
+  251  which bash 
+  252  cd ..
+  253  clear
+  254  chmod +x makefile.sh
+  255  echo hello world
+  256  ./makefile
+  257  file = makefile
+  258  git clone https://drive.google.com/file/d/1EkNaJjS-fIVLsjJ3krpWeR-h4dktmO7y/view?usp=sharing
+  259  git clone https://github.com/sjsu-interconnect/intro-to-gnuplot/blob/main/README.md
+  260  gnuplot> plot sin(x)
+  261  ls
+  262  git clone https://github.com/sjsu-interconnect/intro-to-gnuplot/blob/main/README.mdclear
+  263  clear
+  264  git clone https://github.com/sjsu-interconnect/intro-to-gnuplot
+  265  ls
+  266  gnuplot> plot sin(x)
+  267  cd  intro-to-gnuplot 
+  268  gnuplot> plot sin(x)
+  269  cd ..
+  270  clear
+  271  gnuplot> plot sin(x)
+  272  gnuplot> load 'script.plt'
+  273  cd  intro-to-gnuplot 
+  274  gnuplot> load 'script.plt'
+  275  cd ..
+  276  clear
+  277  sudo apt install gnuplot
+  278  study008
+  279  sudo apt install gnuplot
+  280  clear
+  281  ls
+  282  ls intro-to-gnuplot
+  283  cd intro-to-gnuplot
+  284  vi  README.md   
+  285  ls intro-to-gnuplot
+  286  ls
+  287  clear
+  288  vi  README.md   
+  289  vim scatter.plt
+  290  load 'scatter.plt
+  291  qt
+  292  vim scatter.plt
+  293  gnuplot
+  294  ls
+  295  gnuplot
+  296  ls
+  297  cd intro-to-gnuplot
+  298  cd ..
+  299  clear
+  300  cd cs131
+  301  cd a6
+  302  ls
+  303  cd ws6
+  304  ls
+  305  wx -l no-fractions.csv
+  306  wc -l no-fractions.csv
+  307  wc -l no-separators.csv
+  308  wc -l vendor2.csv
+  309  git add ws6
+  310  cd ..
+  311  git add ws6
+  312  git clone "new ws6 "
+  313  git commit -m "new ws6 "
+  314  git push origin main 
+  315  git push origin main
+  316  clear
+  317  ls
+  318  clear
+  319  ls
+  320  git status
+  321  ls ws6
+  322  cp ws6 ../ws6
+  323  cp -r ws6/ ../ws6
+  324  cd ../ws6/
+  325  ls
+  326  cd ..
+  327  cd cs131
+  328  cler
+  329  clear
+  330  git log
+  331  ls
+  332  ls ws5
+  333  ls ws3
+  334  git revert HEAD
+  335  git log
+  336  ls
+  337  ls ws6/
+  338  ls -l ws6
+  339  git revert HEAD
+  340  ls -l ws6
+  341  ls
+  342  ls -l ws6
+  343  git status
+  344  git push origin main
+  345  ls -l
+  346  git log
+  347  git reset --hard f58f032
+  348  ls
+  349  git status
+  350  git history
+  351  git log
+  352  cp ../ws6/ ./
+  353  mv -r ../ws6/ ./
+  354  cp -r ../ws6/ ./
+  355  ls
+  356  ls -l ws6/
+  357  git status
+  358  git add ws6/
+  359  git commit -m "fixed the large file issue and added new ws6"
+  360  git push origin main
+  361  git clone https://drive.google.com/file/d/1EkNaJjS-fIVLsjJ3krpWeR-h4dktmO7y/view?usp=sharing
+  362  ls
+  363  clear
+  364  ls test1
+  365  clear
+  366  vim test1
+  367  $cat test1
+  368  count=5
+  369  echo $count
+  370  total=$count
+  371  ls
+  372  cat totel
+  373  echo $total
+  374  ${var?message}
+  375  ${var?total}
+  376  export NAME=’Harry Potter’
+  377   echo "Enter amount: "
+  378  echo "Enter ammount:"
+  379  #!/bin/bash
+  380  echo "Enter amount: "
+  381  23
+  382  value=`expr 12345 + 54321`
+  383  echo $value
+  384  value = 'expr 12 + 5'
+  385  value=`expr 12 + 5`
+  386  echo $value
+  387  echo "Enter height of rectangle: "
+  388  read height
+  389  echo "Enter height of rectangle: "
+  390  read height
+  391  clear
+  392  echo "Enter height of rectangle: "
+  393  read height
+  394  echo "Enter width of rectangle: "
+  395  read width
+  396  area=`expr $height \* $width`
+  397  echo "The area of the rectangle is $area"
+  398  echo "sum"
+  399  read sum
+  400  echo "sum2"
+  401  read sum2
+  402  total = 'expr $sum + $sum2
+  403  total = 'expr $sum + $sum2'
+  404  total = `expr $sum + $sum2`
+  405  total = `expr $sum * $sum2`
+  406  total = `expr $sum \* $sum2`
+  407  total=`expr $sum \* $sum2`
+  408  total=`expr $sum + $sum2`
+  409  echo = $total
+  410  git clone https://drive.google.com/file/d/1EkNaJjS-fIVLsjJ3krpWeR-h4dktmO7y/view?usp=sharing
+  411  ls
+  412  cd intro-to-gnuplot
+  413  ls
+  414  cd ..
+  415  cp /datasets/movie-data.zip
+  416  cd /datasets/movie-data.zip
+  417  clear
+  418  cp datasets/movie-data.zip
+  419  cp /datasets/movie-data.zip
+  420  clear 
+  421  cp /datasets/movie-data.zip
+  422  ls
+  423  cd  intro-to-gnuplot 
+  424  cp /datasets/movie-data.zip
+  425  cd ..
+  426  cp /datasets/movie-data.zi
+  427  ls
+  428  cp /datasets/movie-data.zip ./cs131
+  429  ls
+  430  cd cs131
+  431  ls
+  432  unzip movie-data.zip
+  433  ls
+  434  vim movie-data.zip
+  435  vi movies.csv
+  436  vi movies.csv 
+  437  cd .. 
+  438  ls
+  439  number = 25
+  440  number=25
+  441  name="ch Saad"
+  442  echo "$number $name"
+  443  echo "$number \n  $name"
+  444  echo "$number '\n'  $name"
+  445  echo "who is there"
+  446  read there
+  447  echo "$there"
+  448  echo "who is there"
+  449  read there number
+  450  echo $ there number 
+  451  echo $there number 
+  452  echo "Enter name and num friends: "
+  453  read name number
+  454  echo "$name has $number friends!"
+  455  i1 = 1
+  456  i1 =1
+  457  i1=1
+  458  i2=2
+  459  test $il -eq $i2
+  460  fnus23fa $i1 -eq $i2
+  461  clear
+  462  vi date
+  463  if date | grep "Fri"; then
+  464  if date | grep “Fri”; then
+  465  clear
+  466  if date | grep “Fri”; then echo “It’s Friday”; fi
+  467  echo date
+  468  echo $date
+  469  vi test
+  470  vi date
+  471  users=`who | wc -l`
+  472  date=`who | wc -l`
+  473  date wc-l
+  474  cd date
+  475  wc -l date
+  476  for i in 3 2 5 7; do echo “$i times 5 is $(($i * 5))“; done
+  477  clear
+  478  for i in 3,2; do echo ``$i $(($i*2))``; done
+  479  for i in 3,2; do echo ``$i $(($i * 2))``; done
+  480  for i in 3,2; do echo "$i $(($i * 2))"; done
+  481  for i in 3,2; do echo “$i times 5 is $(($i * 5))“ done; done
+  482  for i in 2 2; do echo $i * 2; done
+  483  c;lear
+  484  clear
+  485  for i in 2 3 ; do echo ``$i * 2``; done
+  486  for i in 2 3 ; do echo "$i * 2"; done
+  487  i=1
+  488  sum=0
+  489  while [ $i -le 100 ]; do sum=$(expr $sum + $i); i=$(expr $i + 1); done
+  490  echo The sum is $sum.
+  491  i=1
+  492  sum=0
+  493  while [ $i -le 100 ]; do sum=$(expr $sum + $i
+  494  ne
+  495  done
+  496  i=1
+  497  sum=0
+  498  while [ $i -le 100 ]; do sum=$(expr $sum + $i
+  499  done
+  500  i=$(expr $i + 1)
+  501  done
+  502  i=1
+  503  sum=0
+  504  while [ $i -le 100 ]; do sum=$(expr $sum + $i); i=$(expr $i + 1); done
+  505  i=1
+  506  while [ $i -le 10 ]; do   echo "Hello $i";   i=$((i + 1)); done
+  507  a=$(( 5 + 3 ))
+  508  (( a++ ))
+  509  (( a-- ))
+  510  (( ++a ))
+  511  (( --a ))
+  512  (( t = a<45?7:11 ))
+  513  a=$(( 5 ** 3 ))
+  514  for ((i=0; i<10; i++)) ; do echo $i ; done
+  515  echo $((a + b + (14 * c)))
+  516  sum() { x=`expr $1 + $2`; echo $x; }
+  517  clear
+  518  ls
+  519  vi nose
+  520  cat nose
+  521  sed '/lol/ d' nose
+  522  i nose
+  523  vi nose 
+  524  sed '/lol/ d' nose
+  525  cat nose 
+  526  sed '/lol/ d' nose
+  527  vi nose 
+  528  cat nose
+  529  vi nose 
+  530  sed -i '3 a\ 
+  531  This is the text to append' input.txt
+  532  $cat sedscr_append
+  533  /find them/ a
+  534  cat nose
+  535  /find them/ awherever they are
+  536  vi nose
+  537  sed '2 a\ 
+  538  This is the text to append'nose
+  539  sed '2 a\ 
+  540  This is the text to append' nose
+  541  sed '2 a\ 
+  542  This is the text to append' nose
+  543  sed '2 a\
+  544  This is the text to append' nose
+  545  sed '2 a\
+  546  lol balul' nose
+  547  sed '2 i\
+  548  lol balul' nose
+  549  sed '3 i\
+  550  lol balul' nose
+  551  clear
+  552  cat nose
+  553  sed '3 i\
+  554  lol balul' nose
+  555  sed '2 i\
+  556  lol balul' nose
+  557  sed '2 a\
+  558  lol balul' nose
+  559  vi like
+  560  sed -f nose like
+  561  sed -n nose like
+  562  sed -n '/lolll/ p' nose
+  563  cat nose
+  564  sed –n ‘/books/ p’ nose 
+  565  sed –n ‘/books/ p’ nose
+  566  sed –n ‘/lol/ p’ nose
+  567  vi nose
+  568  sed –n ‘/Line 1/ p’ nose
+  569  ci nose 
+  570  vi nose 
+  571  clear
+  572  vi nose 
+  573  sed –n ‘/Line 1/ p’ nose
+  574  sed -n '/Line 1/ p' nose
+  575  vi nose 
+  576  sed -i 's/131 - Count/131 - 35/' your_file.txt
+  577  sed -i 's/131 - Count/131 - 35/' nose
+  578  cat nose
+  579  vi nose
+  580  sed ‘/lol/ q’ nose
+  581  sed '/lol/ q' nose
+  582  vi nose
+  583  sed '/lol/ q' nose
+  584  sed -n '/lol/ p' nose
+  585  sed 's/lol/balul/w' nose
+  586  sed 's/lol/balul/w nose'
+  587  ls
+  588  vi mac
+  589  vi test1
+  590  sed 's/lol/balul/w test1' nose
+  591  vi test1
+  592  sed 's/lol/balul/w test1' nose
+  593  vi test1
+  594  vi nose
+  595  sed -n 6
+  596  sed -n6
+  597  :q
+  598  clear
+  599  sed -n 6p
+  600  sed -n 6p nose
+  601  sed 5d
+  602  sed 5d nose
+  603  sed -n s/1/8/p nose
+  604  sed 'i 17 pands' nose
+  605  awk 'BEGIN {i=1} i<4 {print; i++}' amazon_data
+  606  awk 'BEGIN {i=1} i<4 {print; i++}' nose
+  607  awk '/Phoenix|time/ {print}' nose
+  608  logout
+  609  awk -F ',' 'NR > 1 && $6 >= 10.0 {
+  610    tip_counts[$18]++;
+  611  }
+  612  END {
+  613    for (tip in tip_counts) {
+  614      print tip, tip_counts[tip];
+  615    }
+  616  }' taxi_data_december_2019.csv > results.txt
+  617  clear
+  618  cd taxidata
+  619  awk -F ',' 'NR > 1 && $6 >= 10.0 {
+  620    tip_counts[$18]++;
+  621  }
+  622  END {
+  623    for (tip in tip_counts) {
+  624      print tip, tip_counts[tip];
+  625    }
+  626  }' taxi_data_december_2019.csv > results.txt
+  627  clear
+  628  awk -F ',' 'NR > 1 && $6 >= 10.0 {
+  629    tip_counts[$18]++;
+  630  }
+  631  END {
+  632    for (tip in tip_counts) {
+  633      print tip, tip_counts[tip];
+  634    }
+  635  clear
+  636  ls
+  637  awk -F ',' 'NR > 1 && $6 >= 10.0 {
+  638    tip_counts[$18]++;
+  639  }
+  640  END {
+  641    for (tip in tip_counts) {
+  642      print tip, tip_counts[tip];
+  643    }
+  644  }' 2019-09.csv > results.txt
+  645  vi results.txt
+  646  sort -k2,2nr -k1,1n results.txt | head -n 20 > ws7.txt
+  647  history >> cmds.log
+  648  nano cmds.log
+  649  ls
+  650  vi ws7.txt
+  651  mv ws7.txt ..
+  652  cd ..
+  653  ls
+  654  mv ws7 cs131
+  655  mv ws7.txt cs131
+  656  ls
+  657  cd cs131
+  658  ls
+  659  vi cmds.log
+  660  cd ..
+  661  cd taxidata
+  662  mv cmds.log
+  663  mv cmds.log ..
+  664  mv cmds.log cs131
+  665  cd ..
+  666  mv cmds.log cs131
+  667  ls'
+  668  cd taxidata
+  669  ls
+  670  cd ..
+  671  cd cs131
+  672  ls
+  673  vi cmds.log
+  674  clear
+  675  ls
+  676  mkdir ws7
+  677  mv ws7.txt es7
+  678  mv ws7.txt ws7
+  679  cd es7
+  680  ls
+  681  mv es7 ws7.txt
+  682  mv ws7.txt ws7
+  683  ls
+  684  ls ws7
+  685  git add ws7
+  686  git commit -m "ws7.txt"
+  687  git push origin main
+  688  logout 
+  689  cd cs131
+  690  mv cmds.log ws7
+  691  ls ws7
+  692  vi cmds.log
+  693  cd ws7
+  694  cat cmds.log
+  695  :wq
+  696  wwq
+  697  clear
+  698  cd cs131
+  699  clear
+  700  ls
+  701  git add ws7
+  702  clear
+  703  ls
+  704  cd ..
+  705  git add ws7
+  706  vi cmds.log
+  707  cd ws7
+  708  vi cmds.log 
+  709  logout
+  710  clear
+  711  ps
+  712  ps |'print{$1}'
+  713  ps |'{print$1}'
+  714  ps |awk '{print$1}'
+  715  ps | awk '{print$2}'
+  716  ps | awk '{print$0}'
+  717  cat /etc/passwd
+  718  awk -F ":" '{print $1}' /etc/passwd
+  719  awk -F '{print $1}' /etc/passwd
+  720  awk -F "." '{print $1}' /etc/passwd
+  721  :q
+  722  awk -F "_" '{print $1}' /etc/passwd
+  723  awk -F ":" '{print $1}' /etc/passwd
+  724  clear
+  725  vi LA
+  726  cat LA
+  727  sed -i 's/lol/balul/' LA
+  728  cat LA
+  729  sed -i 's/lol/balul/g' LA
+  730  cat LA
+  731  sed -i 's/lol/lul/g' LA
+  732  cat LA
+  733  sed -i 's/balul/lul/g' LA
+  734  cat LA
+  735  clear
+  736  ls
+  737  clear
+  738  echo "ENter name"
+  739  read name
+  740  echo $name
+  741  echo "3name:"
+  742  read name1, name2, name3
+  743  echo "num"
+  744  read num1,num2,num3
+  745  read num1, num2, num3
+  746  read num1  num2 num3
+  747  read num1 num2 num3
+  748  echo "num"
+  749  read num1  num2 num3
+  750  echo "num"
+  751  read num1 num2 num3
+  752  echo $num1
+  753  echo $num1, num2, num3 
+  754  echo $num1, $num2, $num3 
+  755  read -p "username: " user_val
+  756  echo "username:" user_val
+  757  read -sp "username: " user_val
+  758  echo $user_val
+  759  echo "Enter names:"
+  760  read -a names
+  761  echo "Names: ${[names[0]}
+  762  lul
+  763  echo "Names: ${[names[0]}"
+  764  echo "Names: ${names[0]}"
+  765  echo "Names: ${names[0]}, ${names[1]}"
+  766  count=10\
+  767  count=10
+  768  if (count -eq 9); then echo "coindition is true"; fi
+  769  count=10
+  770  if [count -eq 9 ]; then echo "lol"; fi
+  771  if [$count -eq 9 ]; then echo "lol"; fi
+  772  clear
+  773  count=10
+  774  if [ $count -eq 9 ]; then echo "lol"; fi
+  775  if [ $count -eq 10 ]; then echo "lol"; fi
+  776  if [ $count > 10 ]; then echo "lol"; fi
+  777  if [ $count < 10 ]; then echo "lol"; fi
+  778  if [$count < 10 ] ; then echo "true"; else echo "false"; fi
+  779  if [ $count < 10 ] ; then echo "true"; else echo "false"; fi
+  780  touch data1 data2
+  781  ls
+  782  la data[0-1]
+  783  la data[12]
+  
+
+
+
+
+
+
+  940  awk -F, 'NR>1 && $2 ~ /2019-08/ {
+  941      pickup_location = $8
+  942      total_amount = $17
+  943      pickup_total[pickup_location] += total_amount
+  944      pickup_count[pickup_location]++
+  945  }
+  946  END {
+  947      for (location in pickup_total) {
+  948          average_total = pickup_total[location] / pickup_count[location]
+  949          print location "," average_total
+  950      }
+  951  }' 2019-08.csv | sort -t, -k2,2nr | head -n 10 > a3.txt
+  952  awk -F, 'NR>1 && $2 ~ /2019-08/ {
+  953      pickup_location = $8
+  954      dropoff_location = $9
+  955      total_amount = $17
+  956      pair = pickup_location "," dropoff_location
+  957      pair_total[pair] += total_amount
+  958      pair_count[pair]++
+  959  }
+  960  END {
+  961      max_pair = ""
+  962      max_average_total = 0
+  963      for (pair in pair_total) {
+  964          average_total = pair_total[pair] / pair_count[pair]
+  965          if (average_total > max_average_total) {
+  966              max_pair = pair
+  967              max_average_total = average_total
+  968          }
+  969      }
+  970      print max_pair "," max_average_total
+  971  }' 2019-08.csv >> a3.txtv
+  974  awk -F',' 'NR > 1 { passenger_count[$4] += $14 } END { for (pc in passenger_count) print pc, passenger_count[pc] }' 2019-08.csv > passenger_tip_sums.dat
+  975  gnuplot gnuplot_script.gp
+  976  ls
+  977  cd intro-to-gnuplot
+  978  ls
+  979  cd ..
+  980  gnuplot plot_passenger_tip.gp
+  981  nano gnuplot_script.gp
+  982  gnuplot gnuplot_script.gp
+  983  ls
+  984  cat passenger_tip_sums.png 
+  985  q
+  986  clear
+  987  ls
+  988  imgcat passenger_tip_sums.png
+  989  feh passenger_tip_sums.png
+  990  vi passenger_tip_sums.dat  
+  991  vi a3.txt
+  992  clear
+  993  ls
+  994  sudo apt-get install gnuplot
+  995  display  passenger_tip_sums.png  
+  996  display passenger_tip_sums.png  
+  997  sudo apt-get install gnuplot
+  998  clear
+  999  logout
+ 1000  clear
+ 1001  cd taxidata
+ 1002  ls
+ 1003  nano gnuplot_a3t4
+ 1004  gnuplot gnuplot_a3t4
+ 1005  nano gnuplot_a3t4
+ 1006  gnuplot gnuplot_a3t4
+ 1007  ls
+ 1008  mv passenger_tip_sums.png a3t3.svg 
+ 1009  ls
+ 1010  cd a3t3.svg
+ 1011  ls a3t3.svg
+ 1012  clear
+ 1013  ls
+ 1014  vi a3.txt
+ 1015  mv a3t3.svg a3t4.svg a3.txt ..
+ 1016  cd ..
+ 1017  mv a3t3.svg a3t4.svg a3.txt .. cs131
+ 1018  mv a3t3.svg a3t4.svg a3.txt cs131
+ 1019  ls
+ 1020  cd taxidata
+ 1021  ls
+ 1022  cd ..
+ 1023  ls
+ 1024  cd cs131
+ 1025  ls
+ 1026  mkdir a3
+ 1027  mv a3t3.svg a3t4.svg a3.txt a3
+ 1028  ls
+ 1029  cd a3
+ 1030  ls
+ 1031  vi plotcmnds.log 
+ 1032  nanao a3t3.svg
+ 1033  nano a3t3.svg
+ 1034  vi plotcmnds.log 
+ 1035  cd ..
+ 1036  vi cmds.log
+ 1037  ls
+ 1038  vi cmds.log
+ 1039  history > cmds.log

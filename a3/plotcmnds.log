@@ -1,0 +1,27 @@
+Bar plot:
+
+set terminal png
+set output 'passenger_tip_sums.png'
+set title "Passenger Count vs. Sum of Tip Amounts"
+set xlabel "Passenger Count"
+set ylabel "Sum of Tip Amounts"
+set style fill solid
+set boxwidth 0.5
+set xtics rotate
+plot 'passenger_tip_sums.dat' using 1:2 with boxes lc rgb 'steelblue' notitle
+
+
+
+Scatter plot: 
+set datafile separator ","
+set term svg enhanced size 800,600
+set output 'a3t3.svg'
+set title "Correlation between Number of Passengers and Average Tip Amount (August 2019)"
+set xlabel "Number of Passengers"
+set ylabel "Average Tip Amount"
+set grid
+
+plot 'august_data.csv' using ($10):(column("tip_amount")) smooth unique with boxes lc rgb 'seagreen' title 'Average Tip Amount'
+
+
+
