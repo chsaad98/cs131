@@ -1,0 +1,22 @@
+[fnus23fa@sjsu taxidata]$ awk -F',' '{total_interactions += $NF; total_users += 1} END {print "Interaction Rate:", total_interactions / total_users}' twitch.csv
+Interaction Rate: 729.432
+[fnus23fa@sjsu taxidata]$ cut -d',' -f3,6 twitch.csv | sort | uniq -c | sort -nr | head -n 10
+      8 
+      2 chfhdtpgus1
+      1 Users:	100k	15.5M
+      1 User ID (anonymized)
+      1 towshun
+      1 Time stop
+      1 Time steps:	6148	6148
+      1 Time start
+      1 Stream ID
+      1 Streamer username
+[fnus23fa@sjsu taxidata]$ awk -F',' '{session_duration = $5 - $4; print session_duration}' twitch.csv > session_durations.txt
+
+[fnus23fa@sjsu taxidata]$ awk -F',' '{print $4, $NF}' twitch.csv | sort -n | uniq -c | awk '{print $2, $1}' | gnuplot -e "set term png; set output 'output.png'; plot '-' with lines"
+
+[fnus23fa@sjsu taxidata]$ cut -d',' -f3,6 twitch.csv | sort | uniq -c | sort -nr | awk '{print $2, $1}' | gnuplot -e "set term png; set output 'output.png'; set boxwidth 0.5; set style fill solid; plot '-' with boxes"
+
+[fnus23fa@sjsu taxidata]$ awk -F',' '{session_duration = $5 - $4; print session_duration}' twitch.csv | gnuplot -e "set term png; set output 'session_durations.png'; binwidth=10; set xrange [0:300]; bin(x,width)=width*floor(x/width); plot '-' using (bin(\$1,binwidth)):(1.0) smooth freq with boxes"
+
+
